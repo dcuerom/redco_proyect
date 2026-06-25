@@ -4,18 +4,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A data-science / business-intelligence workspace for **REDCO**, a strategic-transformation consulting program. The work is bilingual: documentation and domain concepts are in **Spanish** (with English technical terms preserved intentionally — `Capability`, `Personal Identity`, `Mindset`, `Stratex`, `BSC`), while code is in English. The repository is in its early stages — the conceptual context is fully documented but the analytical code (`pilar_a/notebooks/pruebas.ipynb`) is essentially empty.
+A data-science / business-intelligence workspace for **REDCO**, a strategic-transformation consulting program (mining engineering & consulting firm). The work is bilingual: documentation and domain concepts are in **Spanish** (with English technical terms preserved intentionally — `Capability`, `Personal Identity`, `Mindset`, `Stratex`, `BSC`), while code is in English.
 
-The intended consumer of `context/*.md` is an AI agent specialized in data science and BI; treat those documents as the authoritative source of truth for domain concepts, terminology, and what metrics/artifacts the analysis must produce.
+State of the repo: the **conceptual context** (`context/*.md`) and the **`pilar_a` data layer** (real REDCO financial data in `pilar_a/data/`, plus two exhaustive data reports) are fully in place; the **analytical code** (`pilar_a/notebooks/pruebas.ipynb`) is still empty — the data has been ingested and documented, but the modeling/notebooks haven't been written yet. `pilar_b` has no data or code yet.
+
+The intended consumer of the Markdown docs is an AI agent specialized in data science and BI. Treat as authoritative sources of truth, in this order for a given question:
+- **Domain concepts, terminology, what to produce** → `context/*.md`.
+- **What data exists, its schema, and how it maps to the analytical objectives** → `pilar_a/data/Archivos 2025/REPORTE_Archivos_2025.md` and `pilar_a/data/Archivos 2026/REPORTE_Archivos_2026.md`. **Read the relevant REPORTE before touching any `.xlsx`/`.pptx` in those folders** — they document every sheet, field, and data-quality trap so you don't have to reverse-engineer the workbooks.
 
 ## Layout
 
-The git repo root (`proyect_I/`) is self-contained — it holds the `.venv`, `CLAUDE.md`, and `.claude/`. The repo currently has no commits; everything is untracked.
+The git repo root (`redco_proyect/`) is self-contained — it holds the `.venv`, `CLAUDE.md`, and `.claude/`. `.gitignore` excludes `.venv` and `.claude`; the large `.xlsx`/`.pptx`/`.xlsm` data files **are** committed.
 
-- `context/` — the conceptual specification (see below).
-- `pilar_a/` — strategic-dimension analysis, with `notebooks/`, `scripts/`, `data/` subdirs.
-- `pilar_b/` — organizational-dimension analysis (directory exists, empty).
-- `.venv/` — the Python environment (untracked; should be gitignored once a `.gitignore` is added).
+- `context/` — the conceptual specification (see "Context files" below).
+- `pilar_a/` — strategic-dimension analysis. `data/` is populated (see "The data layer"); `notebooks/pruebas.ipynb` is still empty.
+- `pilar_b/` — organizational-dimension analysis (not yet created — no data or code).
+- `.venv/` — the Python environment (gitignored).
 
 ## Environment & commands
 
@@ -85,9 +89,27 @@ These are referenced throughout the context docs and define the BI artifacts the
 - **Two-Agenda system** — *Agenda de Cumplimiento* (compliance KPIs, deliver commitments) and *Agenda de Aspiraciones* (track strategic hypotheses, build future capabilities). Note: the 2024 "Agenda de Desarrollo" was renamed "Agenda de Aspiraciones" — content is equivalent.
 - **Three-level decision governance** — strategic / management / operational.
 
+## The data layer (`pilar_a/data/`)
+
+All current real data lives here, in two sibling folders, each with a `REPORTE_Archivos_*.md` that is the field-level map of its contents (read it first):
+
+- **`Archivos 2025/`** — the **closed historical baseline** (full-year 2025 actuals + the projection/budget models that ran that year). Training/calibration material and the obligatory back-test for the 2026 model.
+- **`Archivos 2026/`** — the **live financial-management system** (six chained workbooks running from commercial pipeline to cash, plus weekly KPI tracking). This is the substrate from which the BSC, Stratex, and dashboards must be built. The master artifact is `05_Modelo_Flujo_de_Caja_REDCO_Mining_Consultants.xlsm` (cash-flow + budget + scenario engine, normalized to USD).
+
+The concept that vertebrates **every** file is the **`ciclo EdP`** (Estado de Pago / payment-state cycle): `Propuesta → Adjudicación → POM → EDP emitido → facturado → pagado → caja`. The canonical ledger (`CicloEdP_2023_v1`) stores 4 dated + 4 USD amounts per EDP; from it derive the time series, stage conversion rates, and collection lags (días a aprobación/factura/caja) that feed every cash projection and Monte Carlo. Three HH (Horas-Hombre) plan types recur: **OTI** (sold in the offer), **POM** (current monthly plan), **Real** (executed).
+
+Data-quality traps the reports flag (respect these in any analysis):
+- **Multi-currency / multi-entity** — TC varies by sheet (e.g. 920 CLP/USD); entities REDCO/REDCROSS/R+/REDTEC/BVI. Standardize to **USD** first.
+- **Devengo vs. caja** — accrual (EDP/factura) and cash (ingreso/movimientos) are mixed in some 2025 views; keep them separate.
+- **"Efecto Seligdar/Rusia"** — the Russian contracts (Seligdar/Polyus/AtlasMining) inflate the POM but don't convert to cash (Real ≈ 0, EDP = 0). Raw POM **overstates** income; use the *adjusted* flow. The `05` model has a `Efecto Seligdar_Rusia` toggle — this is the project's single most important scenario/decision node.
+- `05` model currently has **16 months with negative final cash** flagged for review, plus 122 terceros / 63 viajes with no linked project (breaks cost↔project traceability).
+
+Prefer the canonical root version of any workbook over `Respaldos/` (backups are audit history). The flat `Listado de verificación.csv` is the ideal direct-ingest source (polars/pandas) for the daily-HH detail.
+
 ## Context files
 
 - `context/first_iteration.md` — the 2024 strategic-definition iteration (diagnosis, core business, propósito/misión/aspiración, initial KPIs).
 - `context/current_iteration.md` — the **current** phase (REDCO 2028 horizon, the pillar definitions above, frameworks, team). This supersedes and builds on the first; when the two conflict, prefer `current_iteration.md`.
+- `context/aprendizaje-taller-I.md` — insights from the June 2026 diagnostic workshop. Frames the whole effort as moving from "excellence sustained by exceptional people to excellence sustained by an exceptional system" — i.e. reducing founder/"hero" dependence. Source of the Bid/No-Bid forum, the "distance-to-Core" risk frame, and the integrated Finance & Strategy capability.
 
 The overarching meta-objective stated in the docs — relevant when prioritizing what to analyze — is **reducing the organization's operational dependence on the founder-owner**; treat that as the primary risk variable the BI work should illuminate.
