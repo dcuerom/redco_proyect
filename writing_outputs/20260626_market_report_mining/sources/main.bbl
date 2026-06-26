@@ -1,0 +1,63 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Research and Markets}(2026)]{researchandmarkets2026}
+{Research and Markets}.
+\newblock Global mining market report 2026--2030, 2026.
+\newblock Market valued at USD 2.16T in 2026, projected to USD 2.76T by 2030.
+
+\bibitem[{International Energy Agency}(2026)]{iea2026}
+{International Energy Agency}.
+\newblock Critical minerals market review 2026, 2026.
+\newblock URL \url{https://www.iea.org}.
+
+\bibitem[{BNAmericas}(2026)]{bnamericas2026}
+{BNAmericas}.
+\newblock Latin america mining capex outlook 2026, 2026.
+\newblock 8.4\% CAPEX increase projected for 2026.
+
+\bibitem[{Dataintelo}(2025)]{dataintelo2025}
+{Dataintelo}.
+\newblock Global mining consultancy market analysis 2025--2034, 2025.
+\newblock Market valued at USD 12.8B in 2025, projected to USD 22.6B by 2034.
+
+\bibitem[{Worley Limited}(2025)]{worley2025}
+{Worley Limited}.
+\newblock Worley fy2025 annual report, 2025.
+\newblock Aggregated revenue AUD 12.05 billion, 4\% YoY increase.
+
+\bibitem[{Seligdar Group}(2025)]{seligdar2025}
+{Seligdar Group}.
+\newblock Seligdar financial results 2025, 2025.
+\newblock Revenue from gold/concentrates rose 49\% in 2025.
+
+\bibitem[{S\&P Global Market Intelligence}(2026)]{spglobal2026}
+{S\&P Global Market Intelligence}.
+\newblock Critical minerals \& mining intelligence, 2026.
+\newblock URL \url{https://www.spglobal.com}.
+
+\bibitem[{Wood Mackenzie}(2026)]{woodmac2026}
+{Wood Mackenzie}.
+\newblock Mining and metals outlook 2026, 2026.
+\newblock URL \url{https://www.woodmac.com}.
+
+\bibitem[{COCHILCO}(2026)]{cochilco2026}
+{COCHILCO}.
+\newblock Chilean copper investment pipeline 2026--2034, 2026.
+\newblock Pipeline of USD 70--105 billion through 2034.
+
+\bibitem[{Agencia Andina}(2026)]{andina2026peru}
+{Agencia Andina}.
+\newblock Per\'u: Inversi\'on minera privada 2026, 2026.
+\newblock Forecasts approaching US\$6.3 billion by end of 2026.
+
+\bibitem[{Polyus Gold}(2025)]{polyus2025}
+{Polyus Gold}.
+\newblock Polyus annual report 2025, 2025.
+\newblock Record USD 2.2B in investments; Sukhoi Log estimated at USD 6B.
+
+\end{thebibliography}

@@ -1,0 +1,59 @@
+\contentsline {chapter}{\numberline {1}Resumen Ejecutivo}{1}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Tesis de Inversión}{1}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}Hallazgos Principales}{1}{subsection.1.0.2}%
+\contentsline {paragraph}{Dinámica del Mercado.}{1}{paragraph*.4}%
+\contentsline {paragraph}{Paisaje Competitivo.}{2}{paragraph*.5}%
+\contentsline {paragraph}{Riesgos Críticos.}{2}{paragraph*.6}%
+\contentsline {subsection}{\numberline {1.0.3}Recomendaciones Estratégicas}{2}{subsection.1.0.3}%
+\contentsline {chapter}{\numberline {2}Panorama del Mercado Minero}{3}{chapter.2}%
+\contentsline {subsection}{\numberline {2.0.1}Definición y Alcance}{3}{subsection.2.0.1}%
+\contentsline {subsubsection}{Ecosistema de la Industria}{3}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {2.0.2}Tamaño y Crecimiento del Mercado}{3}{subsection.2.0.2}%
+\contentsline {subsubsection}{TAM / SAM / SOM}{3}{subsubsection*.9}%
+\contentsline {subsubsection}{Análisis Regional de Inversión Minera}{5}{subsubsection*.12}%
+\contentsline {paragraph}{Chile.}{5}{paragraph*.15}%
+\contentsline {paragraph}{Perú.}{5}{paragraph*.16}%
+\contentsline {paragraph}{Brasil.}{5}{paragraph*.17}%
+\contentsline {paragraph}{Estados Unidos.}{5}{paragraph*.18}%
+\contentsline {paragraph}{Rusia.}{6}{paragraph*.19}%
+\contentsline {chapter}{\numberline {3}Proyecciones de Demanda de Minerales a 5 Años}{7}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Proyección de Demanda de Cobre}{7}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Escenarios de Precio del Cobre}{7}{subsection.3.0.2}%
+\contentsline {subsection}{\numberline {3.0.3}Implicaciones para Consultoría de Ingeniería}{8}{subsection.3.0.3}%
+\contentsline {chapter}{\numberline {4}Drivers, Tendencias y Análisis PESTLE}{9}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Drivers Primarios de Crecimiento}{9}{subsection.4.0.1}%
+\contentsline {subsubsection}{Transición Energética y Electrificación}{9}{subsubsection*.22}%
+\contentsline {subsubsection}{Inversión en Seguridad de Suministro}{9}{subsubsection*.23}%
+\contentsline {subsubsection}{Digitalización de Operaciones Mineras}{9}{subsubsection*.24}%
+\contentsline {subsubsection}{Complejidad Regulatoria y ESG}{9}{subsubsection*.25}%
+\contentsline {subsection}{\numberline {4.0.2}Análisis PESTLE}{9}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Tendencias Emergentes}{9}{subsection.4.0.3}%
+\contentsline {chapter}{\numberline {5}Paisaje Competitivo}{11}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Análisis de Estructura de Mercado}{11}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Mapeo y Comparación de Competidores Clave}{12}{subsection.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Matriz de Posicionamiento Competitivo}{13}{subsection.5.0.3}%
+\contentsline {chapter}{\numberline {6}Análisis del Cliente y Segmentación}{14}{chapter.6}%
+\contentsline {subsection}{\numberline {6.0.1}Segmentación de Clientes Operadores}{14}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {6.0.2}Propuesta de Valor de REDCO por Segmento}{15}{subsection.6.0.2}%
+\contentsline {chapter}{\numberline {7}Entorno de Tecnología e Innovación}{16}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Tecnologías Disruptivas en Minería}{16}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {7.0.2}Implicaciones para REDCO}{16}{subsection.7.0.2}%
+\contentsline {chapter}{\numberline {8}Entorno Regulatorio y de Políticas}{17}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Regulaciones Clave por Geografía}{17}{subsection.8.0.1}%
+\contentsline {subsection}{\numberline {8.0.2}Cumplimiento y Oportunidad en Permitting}{17}{subsection.8.0.2}%
+\contentsline {chapter}{\numberline {9}Análisis de Riesgo}{18}{chapter.9}%
+\contentsline {subsection}{\numberline {9.0.1}Identificación y Mitigación de Riesgos Sistémicos}{18}{subsection.9.0.1}%
+\contentsline {chapter}{\numberline {10}Oportunidades y Recomendaciones Estratégicas}{20}{chapter.10}%
+\contentsline {subsection}{\numberline {10.0.1}Identificación de Oportunidades de Alto Impacto}{20}{subsection.10.0.1}%
+\contentsline {subsection}{\numberline {10.0.2}Marco de Decisión: Bid/No-Bid Forum}{20}{subsection.10.0.2}%
+\contentsline {chapter}{\numberline {11}Hoja de Ruta de Implementación}{22}{chapter.11}%
+\contentsline {subsection}{\numberline {11.0.1}Fases de Desarrollo Estratégico (2026--2031)}{22}{subsection.11.0.1}%
+\contentsline {subsubsection}{Fase 1: Estabilización Operativa y Mitigación Rusia (Mes 1 - 12)}{22}{subsubsection*.31}%
+\contentsline {subsubsection}{Fase 2: Expansión Geográfica LATAM y Digitalización (Mes 13 - 36)}{22}{subsubsection*.32}%
+\contentsline {subsubsection}{Fase 3: Internacionalización EE.UU.\ y Consolidación (Mes 37 - 60)}{22}{subsubsection*.33}%
+\contentsline {chapter}{\numberline {12}Tesis de Inversión y Proyecciones Financieras}{23}{chapter.12}%
+\contentsline {subsection}{\numberline {12.0.1}Análisis de Escenarios Financieros}{23}{subsection.12.0.1}%
+\contentsline {subsection}{\numberline {12.0.2}Conclusión y Tesis de Valor}{24}{subsection.12.0.2}%
+\contentsline {chapter}{\numberline {A}Metodología e Ingesta de Datos}{25}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}Metodología de Análisis}{25}{subsection.A.0.1}%
+\contentsline {subsection}{\numberline {A.0.2}Fuentes de Información de Terceros}{25}{subsection.A.0.2}%

@@ -1,0 +1,140 @@
+% Chapter 5: Paisaje Competitivo
+\chapter{Paisaje Competitivo}
+
+\subsection{Análisis de Estructura de Mercado}
+El mercado de consultoría de ingeniería minera se caracteriza por ser fragmentado y competitivo. Coexisten grandes firmas globales multidisciplinarias de ingeniería (con capacidades completas de EPCM) y firmas especializadas/boutique enfocadas en asesoría técnica de alto valor.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+  forcebox/.style={rectangle, draw=primaryblue, fill=lightblue!20, line width=1.5pt, rounded corners, minimum width=3.5cm, minimum height=1.2cm, align=center, font=\small},
+  centerbox/.style={rectangle, draw=primaryblue, fill=primaryblue!10, line width=2pt, rounded corners, minimum width=4.5cm, minimum height=1.8cm, align=center, font=\bfseries\small},
+  arrow/.style={draw=secondaryblue, -{Latex[scale=1.2]}, line width=1.5pt}
+]
+  % Center
+  \node[centerbox] (center) {RIVALIDAD COMPETITIVA\\ Entre Firmas Existentes\\ \riskhigh};
+  
+  % Top
+  \node[forcebox, above=1.2cm of center] (top) {NUEVOS ENTRANTES\\ Amenaza Moderada\\ \riskmedium};
+  
+  % Bottom
+  \node[forcebox, below=1.2cm of center] (bottom) {SUSTITUTOS\\ Amenaza de Sustitutos\\ \riskmedium};
+  
+  % Left
+  \node[forcebox, left=1.0cm of center] (left) {PROVEEDORES\\ Poder de Negociación\\ \risklow};
+  
+  % Right
+  \node[forcebox, right=1.0cm of center] (right) {COMPRADORES\\ Poder de Negociación\\ \riskhigh};
+  
+  % Arrows
+  \path[arrow] (top) -- (center);
+  \path[arrow] (bottom) -- (center);
+  \path[arrow] (left) -- (center);
+  \path[arrow] (right) -- (center);
+\end{tikzpicture}
+\caption{Análisis de las Cinco Fuerzas de Porter para el sector de Consultoría Minera.}
+\label{fig:porter_forces}
+\end{figure}
+
+\begin{porterbox}[Resumen de las Cinco Fuerzas de Porter]
+\begin{tabular}{@{}ll@{}}
+\textbf{Fuerza} & \textbf{Clasificación} \\
+\midrule
+Rivalidad Competitiva & \riskhigh{} \\
+Poder de Negociación de Proveedores & \risklow{} \\
+Poder de Negociación de Clientes (Operadores) & \riskhigh{} \\
+Amenaza de Nuevos Entrantes & \riskmedium{} \\
+Amenaza de Sustitutos & \riskmedium{} \\
+\end{tabular}
+\end{porterbox}
+
+\subsection{Mapeo y Comparación de Competidores Clave}
+
+A continuación se perfilan los 5 competidores principales que definen las fronteras del mercado:
+
+\begin{enumerate}
+    \item \textbf{Worley (Público, ASX: WOR):}
+    \begin{itemize}
+        \item \textbf{Modelo de Negocio:} Gigante global de EPCM con ingresos agregados de AUD 12.05B en FY2025. Enfocado en grandes proyectos de infraestructura y energía.
+        \item \textbf{Fortalezas:} Alcance global masivo, escala y capacidad de financiar proyectos gigantes de ejecución.
+        \item \textbf{Debilidades:} Altos costos estructurales, menor agilidad para proyectos pequeños/medianos, burocracia.
+        \item \textbf{Posicionamiento:} Líder global multidisciplinario.
+    \end{itemize}
+
+    \item \textbf{Hatch Ltd (Privado):}
+    \begin{itemize}
+        \item \textbf{Modelo de Negocio:} Corporación privada propiedad de sus empleados. Combina ingeniería pesada, gestión de proyectos y consultoría de procesos.
+        \item \textbf{Fortalezas:} Profunda experiencia en metalurgia y procesos de procesamiento complejos; fuerte reputación de calidad.
+        \item \textbf{Debilidades:} Menor escala que Worley, tarifas premium que limitan su competitividad en licitaciones de bajo costo.
+        \item \textbf{Posicionamiento:} Consultoría técnica de alta complejidad e innovación.
+    \end{itemize}
+
+    \item \textbf{Jacobs Engineering Group (Público):}
+    \begin{itemize}
+        \item \textbf{Modelo de Negocio:} Proveedor de servicios profesionales completos, EPCM e inteligencia digital. Competidor cercano de Worley en el segmento corporativo.
+        \item \textbf{Fortalezas:} Sólida presencia en EE.UU., fuerte enfoque en sostenibilidad y digitalización.
+        \item \textbf{Debilidades:} Menos especializado en el nicho minero puro comparado con SRK o Hatch.
+        \item \textbf{Posicionamiento:} Soluciones integrales de infraestructura y transición sostenible.
+    \end{itemize}
+
+    \item \textbf{SRK Consulting (Privado):}
+    \begin{itemize}
+        \item \textbf{Modelo de Negocio:} Grupo consultor internacional independiente y propiedad de sus empleados. Modelo basado estrictamente en asesoría técnica y diseño conceptual.
+        \item \textbf{Fortalezas:} Máxima reputación científica/técnica en geología, geotecnia y planificación minera; neutralidad (no hacen construcción).
+        \item \textbf{Debilidades:} No ofrecen servicios de construcción o EPCM a gran escala; dependen de consultores estrella.
+        \item \textbf{Posicionamiento:} Especialista técnico independiente de referencia.
+    \end{itemize}
+
+    \item \textbf{Ausenco (Privado, PE-Backed):}
+    \begin{itemize}
+        \item \textbf{Modelo de Negocio:} Firma de ingeniería y EPCM respaldada por capital privado (Brightstar Capital). Especializada en soluciones eficientes y de rápido despliegue (ingeniería de bajo costo de capital).
+        \item \textbf{Fortalezas:} Diseños de plantas altamente eficientes y modulares; agilidad y foco en la optimización de CAPEX para el cliente.
+        \item \textbf{Debilidades:} Menor cobertura geográfica histórica; balance menos diversificado.
+        \item \textbf{Posicionamiento:} Ingeniería ágil enfocada en maximizar el retorno de capital.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Matriz de Posicionamiento Competitivo}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.95]
+  % Draw Grid
+  \draw[gray!30, thin] (-3,-3) grid (3,3);
+  \draw[line width=1.5pt, ->] (-3.2,-3) -- (3.5,-3) node[right] {\small Alcance Geográfico};
+  \draw[line width=1.5pt, ->] (-3,-3.2) -- (-3,3.5) node[above] {\small Amplitud de Servicio};
+  
+  % Labels on Axes
+  \node[below] at (-2.5,-3) {\scriptsize Regional};
+  \node[below] at (2.5,-3) {\scriptsize Global};
+  \node[left] at (-3,-2.5) {\scriptsize Especialista};
+  \node[left] at (-3,2.5) {\scriptsize EPCM Completo};
+  
+  % Mid-lines
+  \draw[dashed, gray] (0,-3) -- (0,3);
+  \draw[dashed, gray] (-3,0) -- (3,0);
+  
+  % Quadrant Labels
+  \node[gray!60, font=\tiny\bfseries] at (-1.5,1.5) {Boutiques Regionales};
+  \node[gray!60, font=\tiny\bfseries] at (1.5,1.5) {Integradores Globales};
+  \node[gray!60, font=\tiny\bfseries] at (-1.5,-1.5) {Boutiques de Nicho};
+  \node[gray!60, font=\tiny\bfseries] at (1.5,-1.5) {Especialistas Globales};
+  
+  % Plotted Companies
+  \node[circle, fill=primaryblue!80, text=white, inner sep=2pt, font=\scriptsize] at (2.5,2.5) (worley) {Worley};
+  \node[circle, fill=primaryblue!70, text=white, inner sep=2.5pt, font=\scriptsize] at (1.8,2.0) (hatch) {Hatch};
+  \node[circle, fill=primaryblue!70, text=white, inner sep=2pt, font=\scriptsize] at (2.0,1.5) (jacobs) {Jacobs};
+  \node[circle, fill=secondaryblue!80, text=white, inner sep=2pt, font=\scriptsize] at (1.8,-1.5) (srk) {SRK};
+  \node[circle, fill=secondaryblue!75, text=white, inner sep=2pt, font=\scriptsize] at (1.2,0.2) (ausenco) {Ausenco};
+  \node[circle, fill=mediumgray!80, text=white, inner sep=1.5pt, font=\scriptsize] at (-1.5,-1.8) (amc) {AMC};
+  
+  % Target REDCO
+  \node[circle, fill=alertred, text=white, inner sep=3pt, font=\bfseries\scriptsize] at (-2.2,-2.2) (redco) {REDCO};
+  \draw[->, >=stealth, red, thick] (redco) to[out=45, in=225] (-1.0,-1.0) node[right, red, font=\tiny\bfseries] {Ruta Estratégica};
+  \node[circle, draw=red, dashed, fill=red!10, inner sep=2pt, font=\scriptsize] at (-1.0,-1.0) {REDCO Futuro};
+\end{tikzpicture}
+\caption{Matriz de Posicionamiento Competitivo 2x2. Eje X: Alcance Geográfico, Eje Y: Amplitud de Servicio.}
+\label{fig:comp_matrix}
+\end{figure}
+
+El posicionamiento estratégico óptimo para REDCO se ubica en el cuadrante de \textbf{Niche Boutiques} (Boutiques de Nicho), con el objetivo de transicionar gradualmente hacia un rol de \textbf{Global Specialists} (Especialistas Globales) de nicho, apalancando la agilidad y la capacidad de responder a desafíos técnicos de alta especialidad que las grandes firmas de EPCM desatienden o sobrevaloran en precio.

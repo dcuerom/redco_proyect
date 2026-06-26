@@ -1,0 +1,70 @@
+% !TEX program = xelatex
+\documentclass[11pt,letterpaper]{report}
+\usepackage{market_research}
+\usepackage{pdflscape}
+
+\newcommand{\reporttitle}{Mercado Minero Global y Consultoría de Ingeniería}
+\newcommand{\reportsubtitle}{Análisis Estratégico del Sector Minero: Chile, Brasil, Perú, USA y Rusia}
+\newcommand{\reportdate}{Junio 2026}
+\newcommand{\reportauthor}{División de Inteligencia Estratégica}
+\newcommand{\reportclassification}{Confidencial}
+
+\hypersetup{
+    pdftitle={\reporttitle{} - \reportsubtitle{}},
+    pdfauthor={\reportauthor{}},
+    pdfsubject={Market Research Report},
+}
+
+\begin{document}
+
+% === TITLE PAGE ===
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\Huge\bfseries\color{primaryblue} \reporttitle\\[0.5cm]}
+{\LARGE\bfseries \reportsubtitle\\[1.5cm]}
+\vspace{3cm}
+{\Large\bfseries Informe Integral de Investigación de Mercado\\[0.5cm]}
+{\large Proyecciones a 5 Años — Inversiones y Demanda de Minerales\\[3cm]}
+{\large
+\textbf{Fecha:} \reportdate\\[0.3cm]
+\textbf{Preparado por:} \reportauthor\\[0.3cm]
+\textbf{Clasificación:} \reportclassification\\[0.3cm]
+\textbf{Valoración del Estudio:} EUR 300.000
+}
+\vfill
+{\footnotesize
+\textit{Este informe contiene inteligencia de mercado y análisis estratégico basado en fuentes públicas, datos propietarios y modelos analíticos. Todas las fuentes están citadas y son verificables de forma independiente.}
+}
+\end{titlepage}
+
+% === FRONT MATTER ===
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% === MAIN CONTENT ===
+\pagenumbering{arabic}
+
+\input{ch01_executive_summary}
+\input{ch02_market_overview}
+\input{ch03_market_size}
+\input{ch04_drivers_trends}
+\input{ch05_competitive}
+\input{ch06_customer}
+\input{ch07_technology}
+\input{ch08_regulatory}
+\input{ch09_risk}
+\input{ch10_recommendations}
+\input{ch11_roadmap}
+\input{ch12_investment}
+\input{appendices}
+
+\bibliographystyle{unsrtnat}
+\bibliography{../references/references}
+
+\end{document}
