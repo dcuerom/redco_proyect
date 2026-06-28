@@ -1,4 +1,4 @@
-# Reporte de Datos Financieros — `Archivos 2026`
+## Reporte de Datos Financieros — `Archivos 2026`
 
 > **Pilar:** `pilar_a` — Dimensión Estratégica · **Ámbito:** ejercicio vigente 2026
 > **Generado:** 2026-06-19 · **Fuente:** `pilar_a/data/Archivos 2026/`
@@ -35,27 +35,27 @@ flowchart TB
 
 La columna vertebral sigue siendo el **ciclo EdP** (Estado de Pago): *Propuesta → Adjudicación → POM → EDP emitido → facturado → pagado → caja*. La novedad de 2026 es que cada eslabón es ahora un **KPI medido semanalmente** y un **input automatizado** del modelo de caja.
 
-| Objetivo analítico del pilar (briefing) | Archivo(s) que lo habilitan |
-| --- | --- |
-| **Proyección de series de tiempo** | `00_Ciclo EdP`, `01_KPI` (historia semanal/mensual 2024-25-26) |
-| **Proyecciones de flujo de caja** | `05_Modelo Flujo de Caja` (motor), `04_POM` (driver de ingreso) |
-| **Escenarios — árbol de decisión** | `05` → `Efecto Seligdar_Rusia` (toggle), `02_POM 2024` (Rusia POM vs Real) |
-| **Escenarios — Monte Carlo** | `05` (días a aprobación/factura/caja), `01_KPI` (tasas de conversión) |
-| **Elementos — costos · pipeline** | `05` (`20_BBDD Costos`, categorías), `01` (`Vasos comunicantes`), `04` (HH/costo) |
-| **Creación de presupuesto** | `05` (`01_Parametros`, flujo 12m), `04_POM` (plan), Budget heredado de 2025 |
+| Objetivo analítico del pilar (briefing)    | Archivo(s) que lo habilitan                                                                  |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Proyección de series de tiempo**   | `00_Ciclo EdP`, `01_KPI` (historia semanal/mensual 2024-25-26)                           |
+| **Proyecciones de flujo de caja**     | `05_Modelo Flujo de Caja` (motor), `04_POM` (driver de ingreso)                          |
+| **Escenarios — árbol de decisión** | `05` → `Efecto Seligdar_Rusia` (toggle), `02_POM 2024` (Rusia POM vs Real)            |
+| **Escenarios — Monte Carlo**         | `05` (días a aprobación/factura/caja), `01_KPI` (tasas de conversión)                 |
+| **Elementos — costos · pipeline**   | `05` (`20_BBDD Costos`, categorías), `01` (`Vasos comunicantes`), `04` (HH/costo) |
+| **Creación de presupuesto**          | `05` (`01_Parametros`, flujo 12m), `04_POM` (plan), Budget heredado de 2025            |
 
 ---
 
 ## 1. Inventario de la carpeta
 
-| # | Archivo | Tipo | Hojas/Láminas | Rol |
-| --- | --- | --- | ---: | --- |
-| 00 | `00_Ciclo Mensual EdP 2023_v0.xlsx` | Excel | 9 | **Ledger EdP** + backlog (por facturar / por cobrar) + plantilla de Estado de Resultados. |
-| 01 | `01_KPI Gestión REDCO_2026.xlsx` | Excel | 12 | **Sistema de los 11 KPIs** + análisis comparativo + Vasos comunicantes. |
-| 02 | `02_POM 2024.xlsx` | Excel | 10 | **POM histórico** + adherencia POM/Ajustado/Real + Información ER por proyecto. |
-| 03 | `03_20260608_Sem24_Gestión Semanal.pptx` | PPT | 23 | **Foro de gestión semanal** (Agenda de Cumplimiento) — Semana 24, Jun-2026. |
-| 04 | `04_POM Junio 2026.xlsx` | Excel | 66 | **POM vivo de junio**: una hoja por proyecto (plan HH diario) + EDP proyectado. |
-| 05 | `05_Modelo_Flujo_de_Caja_REDCO_Mining_Consultants.xlsm` | Excel macro | 39 | **Modelo maestro de flujo de caja** (caja real + proyección + presupuesto + escenarios). |
+| #  | Archivo                                                   | Tipo        | Hojas/Láminas | Rol                                                                                             |
+| -- | --------------------------------------------------------- | ----------- | -------------: | ----------------------------------------------------------------------------------------------- |
+| 00 | `00_Ciclo Mensual EdP 2023_v0.xlsx`                     | Excel       |              9 | **Ledger EdP** + backlog (por facturar / por cobrar) + plantilla de Estado de Resultados. |
+| 01 | `01_KPI Gestión REDCO_2026.xlsx`                       | Excel       |             12 | **Sistema de los 11 KPIs** + análisis comparativo + Vasos comunicantes.                  |
+| 02 | `02_POM 2024.xlsx`                                      | Excel       |             10 | **POM histórico** + adherencia POM/Ajustado/Real + Información ER por proyecto.         |
+| 03 | `03_20260608_Sem24_Gestión Semanal.pptx`               | PPT         |             23 | **Foro de gestión semanal** (Agenda de Cumplimiento) — Semana 24, Jun-2026.             |
+| 04 | `04_POM Junio 2026.xlsx`                                | Excel       |             66 | **POM vivo de junio**: una hoja por proyecto (plan HH diario) + EDP proyectado.           |
+| 05 | `05_Modelo_Flujo_de_Caja_REDCO_Mining_Consultants.xlsm` | Excel macro |             39 | **Modelo maestro de flujo de caja** (caja real + proyección + presupuesto + escenarios). |
 
 ---
 
@@ -63,27 +63,27 @@ La columna vertebral sigue siendo el **ciclo EdP** (Estado de Pago): *Propuesta 
 
 **Propósito.** Es la **plantilla canónica del ciclo EdP** y el ledger histórico desde 2023. Define el formato con que cada Estado de Pago avanza por sus etapas y expone los dos *backlogs* críticos para la caja.
 
-| Hoja | Estado | Contenido |
-| --- | --- | --- |
-| `CicloEdP_2023_v1` | visible | **Ledger maestro** (701 filas): un registro por EDP con sus 4 etapas fechadas y montadas. |
-| `Ingresos` / `Facturación` / `EDP` | visible | Vistas/pivots derivadas (EDP emitido por proyecto × mes, etc.). |
-| `Reporte_ER` | oculta | **Plantilla de Estado de Resultados mensual**: EDP / Facturas / Ingresos / Gasto / Otros Ingresos / Otros Egresos / Cta Corriente. |
-| `EDP por facturar` | visible | Backlog: EDP emitidos pendientes de factura (610 filas). |
-| `Facturas por cobrar` | visible | Backlog: facturas emitidas pendientes de cobro (610 filas). |
-| `EDP Pendientes - Ejecutivo` | visible | Vista ejecutiva de pendientes. |
-| `Base` | oculta | Maestros/parámetros. |
+| Hoja                                      | Estado  | Contenido                                                                                                                                |
+| ----------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `CicloEdP_2023_v1`                      | visible | **Ledger maestro** (701 filas): un registro por EDP con sus 4 etapas fechadas y montadas.                                          |
+| `Ingresos` / `Facturación` / `EDP` | visible | Vistas/pivots derivadas (EDP emitido por proyecto × mes, etc.).                                                                         |
+| `Reporte_ER`                            | oculta  | **Plantilla de Estado de Resultados mensual**: EDP / Facturas / Ingresos / Gasto / Otros Ingresos / Otros Egresos / Cta Corriente. |
+| `EDP por facturar`                      | visible | Backlog: EDP emitidos pendientes de factura (610 filas).                                                                                 |
+| `Facturas por cobrar`                   | visible | Backlog: facturas emitidas pendientes de cobro (610 filas).                                                                              |
+| `EDP Pendientes - Ejecutivo`            | visible | Vista ejecutiva de pendientes.                                                                                                           |
+| `Base`                                  | oculta  | Maestros/parámetros.                                                                                                                    |
 
 **Guía de campos — `CicloEdP_2023_v1` (esquema canónico del EdP):**
 
-| Campo | Tipo | Descripción |
-| --- | --- | --- |
-| `N`, `Código` | id | Correlativo y código de proyecto (`CH-CMP-OU-FEL00-…` = país-cliente-unidad-fase). |
-| `Nombre Teams`, `Proyecto`, `Cliente`, `País`, `Año` | dim | Dimensiones de análisis. |
-| `Proyección` / `Fecha Proyeccion` / `Proyectado USD` | **etapa 1** | Lo planificado (POM). `-1` = sin proyección previa (entró ya emitido). |
-| `Emisión` / `Fecha Emisión` / `N°EDP` / `Emitido USD` | **etapa 2** | EDP emitido. |
-| `N° Factura` / `Fecha Facturación` / `Facturado USD` | **etapa 3** | Factura. |
-| `Pagado` / `Fecha Ingreso` / `Ingresado USD` | **etapa 4** | Cobro a caja. |
-| `Observaciones` | texto | Notas. |
+| Campo                                                            | Tipo              | Descripción                                                                            |
+| ---------------------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------- |
+| `N`, `Código`                                               | id                | Correlativo y código de proyecto (`CH-CMP-OU-FEL00-…` = país-cliente-unidad-fase). |
+| `Nombre Teams`, `Proyecto`, `Cliente`, `País`, `Año` | dim               | Dimensiones de análisis.                                                               |
+| `Proyección` / `Fecha Proyeccion` / `Proyectado USD`      | **etapa 1** | Lo planificado (POM).`-1` = sin proyección previa (entró ya emitido).               |
+| `Emisión` / `Fecha Emisión` / `N°EDP` / `Emitido USD` | **etapa 2** | EDP emitido.                                                                            |
+| `N° Factura` / `Fecha Facturación` / `Facturado USD`     | **etapa 3** | Factura.                                                                                |
+| `Pagado` / `Fecha Ingreso` / `Ingresado USD`               | **etapa 4** | Cobro a caja.                                                                           |
+| `Observaciones`                                                | texto             | Notas.                                                                                  |
 
 > **Por qué es la pieza más valiosa para series de tiempo:** cada fila contiene las **4 fechas + 4 montos** del mismo EDP. De ahí se derivan empíricamente: (a) la **estacionalidad** del ingreso; (b) las **tasas de conversión** entre etapas; (c) los **rezagos** (días emisión→factura→pago) — exactamente los parámetros que el modelo de caja necesita para proyectar y que una **simulación de Monte Carlo** muestrearía.
 
@@ -97,41 +97,41 @@ La columna vertebral sigue siendo el **ciclo EdP** (Estado de Pago): *Propuesta 
 
 **Los 11 KPIs (hoja `KPI´s de negocio 2026`)** — medidos en `#` (cantidad) y `kUS$`:
 
-| # | KPI | Resp. | Naturaleza | Etapa del ciclo EdP |
-| ---: | --- | --- | --- | --- |
-| 1 | Propuestas Emitidas | PA | Comercial | Entrada del embudo |
-| 2 | Propuestas Adjudicadas | PA | Comercial | Conversión a contrato |
-| 3 | POM | EC | Operación | Plan de EDP del mes |
-| 4 | EDP Emitidos | EC | Operación | Devengo |
-| 5 | EDP Facturados | IM | Administración | Factura |
-| 6 | EDP Pagados *(Ingreso Operacional)* | IM | Caja | Cobro |
-| 7 | Gasto Operacional | IM | Costo | — |
-| 8 | Cumplimiento POM vs EDP | EC | Eficacia | EDP emitido / POM |
-| 9 | Adherencia POM vs EDP | EC | Precisión | qué tan fiel fue el plan |
-| 10 | Backlog EDP (por facturar) | EC | Cartera | 10.1 pend. aprobación · 10.2 aprobados por facturar |
-| 11 | Backlog Facturas (por cobrar) | IM | Cartera | 11.1 facturas vencidas |
+|  # | KPI                                  | Resp. | Naturaleza      | Etapa del ciclo EdP                                   |
+| -: | ------------------------------------ | ----- | --------------- | ----------------------------------------------------- |
+|  1 | Propuestas Emitidas                  | PA    | Comercial       | Entrada del embudo                                    |
+|  2 | Propuestas Adjudicadas               | PA    | Comercial       | Conversión a contrato                                |
+|  3 | POM                                  | EC    | Operación      | Plan de EDP del mes                                   |
+|  4 | EDP Emitidos                         | EC    | Operación      | Devengo                                               |
+|  5 | EDP Facturados                       | IM    | Administración | Factura                                               |
+|  6 | EDP Pagados*(Ingreso Operacional)* | IM    | Caja            | Cobro                                                 |
+|  7 | Gasto Operacional                    | IM    | Costo           | —                                                    |
+|  8 | Cumplimiento POM vs EDP              | EC    | Eficacia        | EDP emitido / POM                                     |
+|  9 | Adherencia POM vs EDP                | EC    | Precisión      | qué tan fiel fue el plan                             |
+| 10 | Backlog EDP (por facturar)           | EC    | Cartera         | 10.1 pend. aprobación · 10.2 aprobados por facturar |
+| 11 | Backlog Facturas (por cobrar)        | IM    | Cartera         | 11.1 facturas vencidas                                |
 
 *(Resp.: PA = Comercial/Propuestas · EC = Ejecución/Control · IM = Ingresos/Administración.)*
 
-| Hoja | Contenido |
-| --- | --- |
-| `KPI´s de negocio 2024 / 2025 / 2026` | Serie histórica de los 11 KPIs (semanal `S1…Sn` + mensual). Base de comparación interanual. |
-| `Análisis Comparativo` | **2026 vs 2025**, mensual y acumulado (Δ abs. y Δ%, media). Ej. acum. ene-may: Propuestas Adjudicadas −19,3%, POM −6,7%, EDP Facturados −11,8%. |
-| `Dashboard 2026` | Tablero visual de los KPIs. |
-| `Vasos comunicantes` | **Embudo de conversión a caja** (ver abajo). |
-| `Compromisos` | Bitácora de acuerdos (acción/responsable/fecha/estatus) — *Agenda de Cumplimiento*. |
-| `Modulo 2025`, `Ventas 2026`, `Respaldo` | Auxiliares. |
+| Hoja                                           | Contenido                                                                                                                                                  |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `KPI´s de negocio 2024 / 2025 / 2026`       | Serie histórica de los 11 KPIs (semanal`S1…Sn` + mensual). Base de comparación interanual.                                                            |
+| `Análisis Comparativo`                      | **2026 vs 2025**, mensual y acumulado (Δ abs. y Δ%, media). Ej. acum. ene-may: Propuestas Adjudicadas −19,3%, POM −6,7%, EDP Facturados −11,8%. |
+| `Dashboard 2026`                             | Tablero visual de los KPIs.                                                                                                                                |
+| `Vasos comunicantes`                         | **Embudo de conversión a caja** (ver abajo).                                                                                                        |
+| `Compromisos`                                | Bitácora de acuerdos (acción/responsable/fecha/estatus) —*Agenda de Cumplimiento*.                                                                    |
+| `Modulo 2025`, `Ventas 2026`, `Respaldo` | Auxiliares.                                                                                                                                                |
 
 **`Vasos comunicantes` — el embudo de caja (kUS$, mayo 2026):**
 
-| Etapa | Concepto | kUS$ | % del remanente |
-| ---: | --- | ---: | ---: |
-| 0 | Remanente Contratos (saldo al 30/04) | 2.680 | — |
-| 1 | Proyectado actual (POM) | 634 | 24% |
-| 2 | Emitido por aprobar | 777 | 29% |
-| 3 | Aprobado por facturar | 0 | 0% |
-| 4 | Facturado por pagar | 847 | 32% |
-| — | **Flujo en cañería (1+2+3+4)** | **2.258** | **84%** |
+| Etapa | Concepto                               |            kUS$ | % del remanente |
+| ----: | -------------------------------------- | --------------: | --------------: |
+|     0 | Remanente Contratos (saldo al 30/04)   |           2.680 |              — |
+|     1 | Proyectado actual (POM)                |             634 |             24% |
+|     2 | Emitido por aprobar                    |             777 |             29% |
+|     3 | Aprobado por facturar                  |               0 |              0% |
+|     4 | Facturado por pagar                    |             847 |             32% |
+|    — | **Flujo en cañería (1+2+3+4)** | **2.258** |   **84%** |
 
 **Conexión estratégica.** Estos 11 KPIs **son** los indicadores de la *Agenda de Cumplimiento*. El reto de diseño BI es mapearlos contra el **Estado de Resultados formal** (P&L) y graduarlos en un BSC con metas y líneas base — tarea explícita del pilar. La caída interanual de adjudicaciones/facturación es una **hipótesis de riesgo** que el caso de negocio 2028 debe abordar.
 
@@ -141,14 +141,14 @@ La columna vertebral sigue siendo el **ciclo EdP** (Estado de Pago): *Propuesta 
 
 **Propósito.** Histórico del **POM (Programa de Operaciones Mensual)** 2024-2025 y, sobre todo, el motor de **adherencia POM vs Ajustado vs Real** por proyecto, con su Estado de Resultados asociado.
 
-| Hoja | Contenido |
-| --- | --- |
-| `POM 2024` / `POM 2025` / `POM 2025__old` | Planes de operación por año (HH y EDP por proyecto). |
-| `260209__Información ER` | **Núcleo:** por proyecto, `Contrato / Emitido / Saldo USD` + por mes `POM · Ajustado · Real`. |
-| `Comparación ene-26` | Resumen `POM / Ajustado / Real` por proyecto (enero 2026). |
-| `Curva S` | Curva S de avance (acumulado planificado vs real). |
-| `Formato reporte EDP_2024`, `Formato Backlog_Sept25` | Plantillas. |
-| `Proyectos Vigentes_2025` | Maestro de proyectos activos. |
+| Hoja                                                     | Contenido                                                                                                  |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `POM 2024` / `POM 2025` / `POM 2025__old`          | Planes de operación por año (HH y EDP por proyecto).                                                     |
+| `260209__Información ER`                              | **Núcleo:** por proyecto, `Contrato / Emitido / Saldo USD` + por mes `POM · Ajustado · Real`. |
+| `Comparación ene-26`                                  | Resumen`POM / Ajustado / Real` por proyecto (enero 2026).                                                |
+| `Curva S`                                              | Curva S de avance (acumulado planificado vs real).                                                         |
+| `Formato reporte EDP_2024`, `Formato Backlog_Sept25` | Plantillas.                                                                                                |
+| `Proyectos Vigentes_2025`                              | Maestro de proyectos activos.                                                                              |
 
 **Guía de campos — `260209__Información ER`:** `# · Nombre de Proyecto · País · Contrato USD · Emitido USD · Saldo USD`, y para cada mes el triplete `POM / Ajuste / Real`.
 
@@ -165,11 +165,11 @@ La columna vertebral sigue siendo el **ciclo EdP** (Estado de Pago): *Propuesta 
 
 **Composición (23 láminas, 3 secciones):**
 
-| Sección | Contenido relevante para BI |
-| --- | --- |
-| **1. Gestión / Finanzas** | Tablero semanal de indicadores; **Vasos comunicantes**; resultados mayo 2026 vs 2025; **ajuste efecto Seligdar** (considera solo 400 kUSD); EDP programados POM (n=13 / 616 kUSD, **cumplimiento 53%**); EDP por aprobar (n=21 / 626 k); **Budget 817 vs media real 755 kUS$/mes**. |
-| **2. Ingeniería** | **Reporte de costos y rentabilidad acum. ene–may 2026: margen neto US$1,37M (37,6%), 45 proyectos (27 rentables)**; detalle por proyecto (margen, rentabilidad, backlog); plan de trabajo / asignación de recursos. |
-| **3. Comercial y Desarrollo de Negocios** | Propuestas, capacidad de ingeniería y utilización (abril 2026). |
+| Sección                                        | Contenido relevante para BI                                                                                                                                                                                                                                                                          |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Gestión / Finanzas**                | Tablero semanal de indicadores;**Vasos comunicantes**; resultados mayo 2026 vs 2025; **ajuste efecto Seligdar** (considera solo 400 kUSD); EDP programados POM (n=13 / 616 kUSD, **cumplimiento 53%**); EDP por aprobar (n=21 / 626 k); **Budget 817 vs media real 755 kUS$/mes**. |
+| **2. Ingeniería**                        | **Reporte de costos y rentabilidad acum. ene–may 2026: margen neto US$1,37M (37,6%), 45 proyectos (27 rentables)**; detalle por proyecto (margen, rentabilidad, backlog); plan de trabajo / asignación de recursos.                                                                          |
+| **3. Comercial y Desarrollo de Negocios** | Propuestas, capacidad de ingeniería y utilización (abril 2026).                                                                                                                                                                                                                                    |
 
 **Conexión estratégica.** Demuestra el **sistema de control de gestión operando** (Etapa 5 Kaplan-Norton, gobernanza nivel 2-3). La rentabilidad por proyecto (37,6% margen) y la utilización de ingeniería son **insumos directos** de la "evaluación económica de proyectos" del briefing. El gap Budget (817) vs real (755) es la **brecha presupuestaria** a explicar.
 
@@ -181,23 +181,23 @@ La columna vertebral sigue siendo el **ciclo EdP** (Estado de Pago): *Propuesta 
 
 **Composición (66 hojas):**
 
-| Grupo | Hojas | Contenido |
-| --- | --- | --- |
-| **Maestros** | `Listado Proyectos`, `Listado Profesionales` | Catálogo de proyectos y **68 profesionales** (país, RUT/DNI, área, cargo, fechas de contrato). |
-| **Resúmenes** | `Resumen`, `Resumen EDP POM`, `Resumen HH POM`, `Summary HH POM`, `Resumen Personal` | Consolidados de HH y EDP por proyecto/persona. |
-| **Hojas-proyecto** (≈50) | `EroCopper_…`, `Codelco_…`, `Minsur_…`, `Seligdar_Kyuchus`, `Polyus_…`, etc. | **Una hoja por proyecto** con plan HH diario por profesional (estilo Gantt, calendario laboral). |
-| **Salida BI** | `Reporte POM PBI` (2.244 filas), `Resultados Intermedios`, `CHECK PBI` | Tablas planas para Power BI. |
+| Grupo                           | Hojas                                                                                          | Contenido                                                                                              |
+| ------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Maestros**              | `Listado Proyectos`, `Listado Profesionales`                                               | Catálogo de proyectos y**68 profesionales** (país, RUT/DNI, área, cargo, fechas de contrato). |
+| **Resúmenes**            | `Resumen`, `Resumen EDP POM`, `Resumen HH POM`, `Summary HH POM`, `Resumen Personal` | Consolidados de HH y EDP por proyecto/persona.                                                         |
+| **Hojas-proyecto** (≈50) | `EroCopper_…`, `Codelco_…`, `Minsur_…`, `Seligdar_Kyuchus`, `Polyus_…`, etc.     | **Una hoja por proyecto** con plan HH diario por profesional (estilo Gantt, calendario laboral). |
+| **Salida BI**             | `Reporte POM PBI` (2.244 filas), `Resultados Intermedios`, `CHECK PBI`                   | Tablas planas para Power BI.                                                                           |
 
 **Guía de campos — `Resumen EDP POM` (el puente plan→ingreso):**
 
-| Campo | Descripción |
-| --- | --- |
-| `Gerente` / `Jefe de Proyecto` / `País` / `Proyecto` | Dimensiones. |
-| `HH POM` | Horas-hombre planificadas el mes. |
-| `Monto Contrato` | Valor total del contrato (USD). |
-| `Saldo actual` | Remanente del contrato sin emitir. |
-| `EDP (POM)` | **EDP que se proyecta emitir este mes** → alimenta el flujo de caja. |
-| `Saldo proyectado` | Saldo tras el EDP del mes. |
+| Campo                                                         | Descripción                                                                |
+| ------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `Gerente` / `Jefe de Proyecto` / `País` / `Proyecto` | Dimensiones.                                                                |
+| `HH POM`                                                    | Horas-hombre planificadas el mes.                                           |
+| `Monto Contrato`                                            | Valor total del contrato (USD).                                             |
+| `Saldo actual`                                              | Remanente del contrato sin emitir.                                          |
+| `EDP (POM)`                                                 | **EDP que se proyecta emitir este mes** → alimenta el flujo de caja. |
+| `Saldo proyectado`                                          | Saldo tras el EDP del mes.                                                  |
 
 Totales POM junio: **5.181 HH · Contrato 4,00M · Saldo 2,78M · EDP POM 0,84M · Saldo proyectado 1,93M USD.**
 
@@ -217,17 +217,17 @@ Totales POM junio: **5.181 HH · Contrato 4,00M · Saldo 2,78M · EDP POM 0,84M 
 
 **Arquitectura modular (39 hojas):**
 
-| Bloque | Hojas | Función |
-| --- | --- | --- |
-| **Configuración** | `00_README`, `01_Parametros`, `02_Listas`, `03_FX_Mensual`, `03A_Cajas`, `Categorías_Subcategorías` | Parámetros, FX→USD, cajas, taxonomía de gasto. |
-| **Entradas (devengo/pipeline)** | `04_Proyectos` (maestro, 58), `05_EDP_Cobranza` (136 EDP) | Cartera y pipeline de cobro (con días a aprobación/factura/caja). |
-| **Entradas (caja real)** | `06_Movimientos` (hasta 5.000 mov.) | **Fuente de verdad de caja**: extractos bancarios reales. |
-| **Egresos por naturaleza** | `09_Personal` (84), `09A_Bonos`, `09B_Honorarios`, `10_Viajes` (63), `11_Terceros` (122), `11A_Asesorías`, `12_Oficina`, `13_Creditos`, `14_Impuestos`, `15_Relacionadas_Cajas`, `16_REDCROSS_Backoffice` | Compromisos programados por categoría. |
-| **Salidas (flujo)** | `07_Flujo_Mensual - Real`, `07_Flujo_Mensual + Proyección`, `07_Flujo_Categorías(_Proy)`, `08_Flujo_3_Meses`, `Ingreso` | Flujo de caja consolidado y proyectado. |
-| **Cierre / control** | `17_Conciliacion`, `17A_Estado_Caja`, `19_Tablero_Consistencia`, `Crosscheck`, `Validación_Países(_Proy)` | Cuadres y controles de integridad. |
-| **Reporte** | `18_Dashboard`, `18A_Dashboard_Data`, `Resumen_Egresos_Pais`, `G&A_Resumen`, `Resultados Cajas (Resumen)` | Tablero ejecutivo y resúmenes. |
-| **Escenario** | `Efecto Seligdar_Rusia` | **Interruptor de escenario** (Con/Sin Seligdar). |
-| **(Vacío)** | `20_BBDD Costos` | Reservado para base de datos de costos. |
+| Bloque                                | Hojas                                                                                                                                                                                                                            | Función                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Configuración**              | `00_README`, `01_Parametros`, `02_Listas`, `03_FX_Mensual`, `03A_Cajas`, `Categorías_Subcategorías`                                                                                                                | Parámetros, FX→USD, cajas, taxonomía de gasto.                   |
+| **Entradas (devengo/pipeline)** | `04_Proyectos` (maestro, 58), `05_EDP_Cobranza` (136 EDP)                                                                                                                                                                    | Cartera y pipeline de cobro (con días a aprobación/factura/caja). |
+| **Entradas (caja real)**        | `06_Movimientos` (hasta 5.000 mov.)                                                                                                                                                                                            | **Fuente de verdad de caja**: extractos bancarios reales.     |
+| **Egresos por naturaleza**      | `09_Personal` (84), `09A_Bonos`, `09B_Honorarios`, `10_Viajes` (63), `11_Terceros` (122), `11A_Asesorías`, `12_Oficina`, `13_Creditos`, `14_Impuestos`, `15_Relacionadas_Cajas`, `16_REDCROSS_Backoffice` | Compromisos programados por categoría.                             |
+| **Salidas (flujo)**             | `07_Flujo_Mensual - Real`, `07_Flujo_Mensual + Proyección`, `07_Flujo_Categorías(_Proy)`, `08_Flujo_3_Meses`, `Ingreso`                                                                                              | Flujo de caja consolidado y proyectado.                             |
+| **Cierre / control**            | `17_Conciliacion`, `17A_Estado_Caja`, `19_Tablero_Consistencia`, `Crosscheck`, `Validación_Países(_Proy)`                                                                                                            | Cuadres y controles de integridad.                                  |
+| **Reporte**                     | `18_Dashboard`, `18A_Dashboard_Data`, `Resumen_Egresos_Pais`, `G&A_Resumen`, `Resultados Cajas (Resumen)`                                                                                                              | Tablero ejecutivo y resúmenes.                                     |
+| **Escenario**                   | `Efecto Seligdar_Rusia`                                                                                                                                                                                                        | **Interruptor de escenario** (Con/Sin Seligdar).              |
+| **(Vacío)**                    | `20_BBDD Costos`                                                                                                                                                                                                               | Reservado para base de datos de costos.                             |
 
 **Guía de campos — `07_Flujo_Mensual` (estructura del flujo, columnas = 12 meses):**
 
@@ -263,15 +263,15 @@ Caja final  (= inicial + ingresos − egresos)
 
 ## 8. Conexión con los objetivos analíticos del `pilar_a`
 
-| Capacidad objetivo | Implementación recomendada sobre `Archivos 2026` | Skill / técnica |
-| --- | --- | --- |
-| **Series de tiempo** | Reconstruir desde `CicloEdP_2023_v1` (fechas+montos por etapa) y la historia de `01_KPI` (3 años). Modelar estacionalidad y conversión. | `statsmodels`, `aeon`, `timesfm-forecasting` |
-| **Flujo de caja proyectado** | Replicar la lógica de `05` en notebook (`polars`): caja inicial + Σ(EDP×prob×lag) − egresos por categoría. | `polars`, `statistical-analysis` |
-| **Árbol de decisión estocástico** | Formalizar `Efecto Seligdar_Rusia` + Bid/No Bid + apertura de país como árbol con probabilidades (las del marco "distancia al Core": 35/15/8/−5%). | `networkx`, `what-if-oracle` |
-| **Monte Carlo** | Muestrear `Días a Aprobación/Factura/Caja` y tasas de conversión del embudo `Vasos comunicantes` → distribución de caja final 90D y prob. de caja negativa. | `numpy`/`scipy`, `pymc` |
-| **Evaluación económica de proyectos** | Usar margen/rentabilidad por proyecto del deck semanal + costo HH del POM → ROI/payback por proyecto y por país. | `statistical-analysis`, `shap` |
-| **Costos · pipeline** | `Categorías_Subcategorías` como taxonomía; poblar `20_BBDD Costos`; pipeline = `EDP por facturar` + `Facturas por cobrar` + `Vasos comunicantes`. | `exploratory-data-analysis` |
-| **Presupuesto / Stratex / BSC** | Mapear los 11 KPIs al P&L formal y al flujo; definir metas y líneas base; armar BSC con perspectivas. | base para `pptx`/`xlsx`/dashboards |
+| Capacidad objetivo                            | Implementación recomendada sobre`Archivos 2026`                                                                                                                  | Skill / técnica                                   |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| **Series de tiempo**                    | Reconstruir desde`CicloEdP_2023_v1` (fechas+montos por etapa) y la historia de `01_KPI` (3 años). Modelar estacionalidad y conversión.                        | `statsmodels`, `aeon`, `timesfm-forecasting` |
+| **Flujo de caja proyectado**            | Replicar la lógica de`05` en notebook (`polars`): caja inicial + Σ(EDP×prob×lag) − egresos por categoría.                                                 | `polars`, `statistical-analysis`               |
+| **Árbol de decisión estocástico**    | Formalizar`Efecto Seligdar_Rusia` + Bid/No Bid + apertura de país como árbol con probabilidades (las del marco "distancia al Core": 35/15/8/−5%).              | `networkx`, `what-if-oracle`                   |
+| **Monte Carlo**                         | Muestrear`Días a Aprobación/Factura/Caja` y tasas de conversión del embudo `Vasos comunicantes` → distribución de caja final 90D y prob. de caja negativa. | `numpy`/`scipy`, `pymc`                      |
+| **Evaluación económica de proyectos** | Usar margen/rentabilidad por proyecto del deck semanal + costo HH del POM → ROI/payback por proyecto y por país.                                                  | `statistical-analysis`, `shap`                 |
+| **Costos · pipeline**                  | `Categorías_Subcategorías` como taxonomía; poblar `20_BBDD Costos`; pipeline = `EDP por facturar` + `Facturas por cobrar` + `Vasos comunicantes`.      | `exploratory-data-analysis`                      |
+| **Presupuesto / Stratex / BSC**         | Mapear los 11 KPIs al P&L formal y al flujo; definir metas y líneas base; armar BSC con perspectivas.                                                              | base para`pptx`/`xlsx`/dashboards              |
 
 **Calidad de datos a vigilar:** (a) el **POM crudo sobreestima** ingreso por el efecto Rusia — usar siempre el flujo *ajustado*; (b) "viajes/terceros sin proyecto" rompen la trazabilidad costo↔proyecto (122 y 63 partidas); (c) hay **devengo (EDP) vs caja (movimientos)** — el modelo los separa correctamente, conviene preservar esa separación aguas arriba; (d) **16 meses con caja final negativa** marcados para revisión: priorizar antes de presentar proyecciones.
 
