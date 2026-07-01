@@ -28,6 +28,7 @@
 11. **Apéndice B — Tablas de datos detalladas**
 
 **Índice de figuras**
+
 - Fig. 1 — Cadena de valor del servicio de ingeniería minera (flowchart)
 - Fig. 2 — Radar comparativo de mercados: riesgo sistémico y madurez de demanda
 - Fig. 3 — Trayectoria de demanda de minerales 2024→2030 (series)
@@ -46,6 +47,7 @@
 El mercado de **servicios de consultoría e ingeniería para la gran minería** —que abarca estudios conceptuales, ingeniería básica y de detalle, gestión EPCM y optimización operacional— entra en un ciclo de expansión estructural impulsado por la **electrificación y la transición energética**, pero simultáneamente fragmentado por **geopolítica, permisología y escasez de talento técnico**. El motor ya no es exclusivamente el precio spot del commodity, sino la **reconfiguración de las cadenas de suministro de minerales críticos** y la presión de descarbonización sobre activos existentes.
 
 > **Tesis de inversión (síntesis):**
+>
 > 1. La demanda de servicios de ingeniería minera crecerá de **~USD 14 mil millones (2024)** a **~USD 22 mil millones (2030)** en el escenario base, una **CAGR ≈ 8 %**, superior a la del CAPEX minero agregado por mayor complejidad técnica unitaria.
 > 2. El crecimiento es **asimétrico por mineral**: litio, cobre, níquel, grafito y tierras raras (neodimio) concentran la *tracción incremental*; acero y aluminio aportan volumen pero baja intensidad de ingeniería especializada por dólar.
 > 3. El crecimiento es **asimétrico por geografía**: Chile, Perú, Canadá, EE.UU., Brasil y Argentina ofrecen el binomio más atractivo *atractivo geológico × gobernabilidad*; Rusia y partes de Europa del Este ofrecen geología de clase mundial con **prima de riesgo prohibitiva** para firmas occidentales.
@@ -53,6 +55,7 @@ El mercado de **servicios de consultoría e ingeniería para la gran minería** 
 
 ### 1.1 Hallazgos clave
 
+<<<<<<< HEAD
 | # | Hallazgo | Implicancia para la firma de ingeniería |
 |---|----------|------------------------------------------|
 | H1 | La transición energética traccionará **>40 %** de la demanda incremental de cobre y **>80 %** de la de litio al 2030. | Reorientar capacidades hacia *battery minerals* y procesamiento. |
@@ -60,6 +63,15 @@ El mercado de **servicios de consultoría e ingeniería para la gran minería** 
 | H3 | La **permisología** es el principal retardo: 5–15 años entre descubrimiento y producción. | Servicios de *permitting, ESG y stakeholder engineering* son de alto margen. |
 | H4 | **Escasez de talento técnico** (geólogos, metalurgistas, ingenieros de proyecto senior). | Restricción de oferta = poder de fijación de precios para el consultor. |
 | H5 | **Fragmentación geopolítica** ("friend-shoring") redibuja flujos hacia Américas y aliados OCDE. | Ventaja para firmas con presencia en Chile/Perú/Canadá/EE.UU.; riesgo en Rusia. |
+=======
+| #  | Hallazgo                                                                                                                            | Implicancia para la firma de ingeniería                                      |
+| -- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| H1 | La transición energética traccionará**>40 %** de la demanda incremental de cobre y **>80 %** de la de litio al 2030. | Reorientar capacidades hacia*battery minerals* y procesamiento.             |
+| H2 | El**CAPEX por unidad de metal** sube por caída de leyes y profundización de yacimientos.                                    | Mayor contenido de ingeniería por tonelada → expansión del*fee pool*.    |
+| H3 | La**permisología** es el principal retardo: 5–15 años entre descubrimiento y producción.                                  | Servicios de*permitting, ESG y stakeholder engineering* son de alto margen. |
+| H4 | **Escasez de talento técnico** (geólogos, metalurgistas, ingenieros de proyecto senior).                                    | Restricción de oferta = poder de fijación de precios para el consultor.     |
+| H5 | **Fragmentación geopolítica** ("friend-shoring") redibuja flujos hacia Américas y aliados OCDE.                            | Ventaja para firmas con presencia en Chile/Canadá/EE.UU.; riesgo en Rusia.   |
+>>>>>>> ba6ceb9 (Cambios menores)
 
 ### 1.2 Recomendaciones estratégicas (top 5)
 
@@ -131,6 +143,7 @@ Se evalúan **Chile, Perú, Brasil, Argentina, Canadá, Europa del Este, Rusia y
 
 ### 3.1 Matriz comparativa de mercados
 
+<<<<<<< HEAD
 | Mercado | Minerales ancla | Pipeline de CAPEX 2024–30 (USD, orden de magnitud) | Atractivo geológico | Gobernabilidad / riesgo país | Permisología (años típicos) | Talento local | Veredicto para REDCO |
 |---|---|---|---|---|---|---|---|
 | **Chile** | Cobre, litio, molibdeno | ~USD 65–75 mil M | Muy alto | Medio-alto | 8–12 | Medio-alto | **Núcleo (Core)** |
@@ -141,6 +154,17 @@ Se evalúan **Chile, Perú, Brasil, Argentina, Canadá, Europa del Este, Rusia y
 | **EE.UU.** | Cobre, litio, tierras raras, grafito | ~USD 40–55 mil M | Alto | Alto | 7–12 | Alto | **Expansión OCDE (policy-driven)** |
 | **Europa del Este** | Cobre, níquel, litio, grafito | ~USD 15–25 mil M | Medio | Medio | 6–10 | Medio | **Selectivo / vía socios** |
 | **Rusia** | Níquel, paladio, cobre, oro, tierras raras | n/d (sancionado) | Muy alto | Muy bajo (sanciones) | n/d | Medio | **Evitar / no-go** |
+=======
+| Mercado                   | Minerales ancla                                       | Pipeline de CAPEX 2024–30 (USD, orden de magnitud) | Atractivo geológico | Gobernabilidad / riesgo país | Permisología (años típicos) | Talento local | Veredicto para REDCO                      |
+| ------------------------- | ----------------------------------------------------- | --------------------------------------------------- | -------------------- | ----------------------------- | ------------------------------ | ------------- | ----------------------------------------- |
+| **Chile**           | Cobre, litio, molibdeno                               | ~USD 65–75 mil M                                   | Muy alto             | Medio-alto                    | 8–12                          | Medio-alto    | **Núcleo (Core)**                  |
+| **Brasil**          | Hierro, cobre, níquel, grafito, tierras raras        | ~USD 40–50 mil M                                   | Alto                 | Medio                         | 6–10                          | Medio         | **Crecimiento**                     |
+| **Argentina**       | Litio, cobre                                          | ~USD 25–35 mil M                                   | Muy alto (litio)     | Medio-bajo (mejora)           | 4–8                           | Bajo-medio    | **Crecimiento (alta beta)**         |
+| **Canadá**         | Níquel, cobre, litio, potasio, uranio, tierras raras | ~USD 45–55 mil M                                   | Muy alto             | Muy alto                      | 10–15                         | Alto          | **Expansión OCDE**                 |
+| **EE.UU.**          | Cobre, litio, tierras raras, grafito                  | ~USD 40–55 mil M                                   | Alto                 | Alto                          | 7–12                          | Alto          | **Expansión OCDE (policy-driven)** |
+| **Europa del Este** | Cobre, níquel, litio, grafito                        | ~USD 15–25 mil M                                   | Medio                | Medio                         | 6–10                          | Medio         | **Selectivo / vía socios**         |
+| **Rusia**           | Níquel, paladio, cobre, oro, tierras raras           | n/d (sancionado)                                    | Muy alto             | Muy bajo (sanciones)          | n/d                            | Medio         | **Evitar / no-go**                  |
+>>>>>>> ba6ceb9 (Cambios menores)
 
 > **Lectura geográfica.** El "corredor de las Américas" (Chile + Perú + Argentina + Brasil + Canadá + EE.UU.) concentra la combinación más favorable de geología, pipeline de litio/cobre/níquel y acceso para firmas occidentales. Su epicentro es el **eje andino Chile–Perú**, que reúne los dos mayores complejos cupríferos-argentíferos del hemisferio occidental y el pipeline de cobre más denso accesible a firmas OCDE. **Rusia** mantiene dotaciones de níquel-paladio de clase mundial pero está **fuera del conjunto factible** por sanciones y riesgo de reputación/contraparte; cualquier exposición debe tratarse como *no-go* para una firma con clientes y financistas OCDE. **Europa del Este** es un mercado emergente de *near-shoring* europeo (litio en Serbia/Chequia, cobre en Polonia) que conviene abordar **vía joint ventures locales**.
 
@@ -152,6 +176,7 @@ El diferencial de Perú frente a Chile no es geológico —ambos comparten la fr
 
 ### 3.2 Concentración geográfica de la presión de demanda (por mineral)
 
+<<<<<<< HEAD
 | Mineral | Geografías donde se concentra la presión de demanda de ingeniería 2030 |
 |---|---|
 | **Cobre** | Chile, Perú, EE.UU., Canadá; RD Congo/Zambia (fuera de alcance) |
@@ -161,6 +186,17 @@ El diferencial de Perú frente a Chile no es geológico —ambos comparten la fr
 | **Neodimio (TR)** | EE.UU., Canadá, Brasil, Europa del Este |
 | **Plata** | Perú, México, Chile, EE.UU. |
 | **Cobre/Acero/Aluminio (base)** | Brasil (hierro), Canadá, EE.UU. |
+=======
+| Mineral                               | Geografías donde se concentra la presión de demanda de ingeniería 2030     |
+| ------------------------------------- | ----------------------------------------------------------------------------- |
+| **Cobre**                       | Chile, Perú (adyacente), EE.UU., Canadá, RD Congo/Zambia (fuera de alcance) |
+| **Litio**                       | Argentina, Chile (Salar), Australia (fuera), Canadá, EE.UU.                  |
+| **Níquel**                     | Canadá, Brasil, Indonesia (fuera), Rusia (restringido)                       |
+| **Grafito**                     | Brasil, Canadá, EE.UU. (anodo doméstico), Mozambique (fuera)                |
+| **Neodimio (TR)**               | EE.UU., Canadá, Brasil, Europa del Este                                      |
+| **Plata**                       | Chile, EE.UU., México (adyacente)                                            |
+| **Cobre/Acero/Aluminio (base)** | Brasil (hierro), Canadá, EE.UU.                                              |
+>>>>>>> ba6ceb9 (Cambios menores)
 
 ---
 
@@ -174,18 +210,18 @@ $$
 
 ### 4.1 Tabla maestra de proyección de demanda (escenario base)
 
-| Mineral | Unidad | Demanda 2024 (aprox.) | Demanda 2030 (base) | CAGR 24–30 | Driver dominante | Intensidad de ingeniería* | Verif.† |
-|---|---|---|---|---|---|---|:--:|
-| **Litio** | Mt LCE | 1.0 | 2.6 | **~16 %** | Baterías EV + BESS | Muy alta | ✅ |
-| **Cobalto** | Mt | 0.20 | 0.27 | **~5 %** | Baterías (NMC) | Alta | 🔄 |
-| **Grafito** (natural+sint.) | Mt | 5.5 | 8.5 | **~7.5 %** | Ánodos de batería | Alta | ✅ |
-| **Níquel** | Mt | 3.3 | 4.3 | **~4.5 %** | Baterías + acero inox. | Alta | 🔄 |
-| **Neodimio (NdPr/TR imán)** | kt | 55 | 73 | **~5 %** | Imanes (EV + eólica) | Muy alta | 🔄 |
-| **Silicio** (metal+poly) | Mt | 5.5 | 8.5 | **~7.5 %** | Solar PV + electrónica | Media-alta | ✅ |
-| **Cobre** (refinado) | Mt | 27.0 | 30.0 | **~1.8 %** | Redes + EV + edificación | Alta | 🔄 |
-| **Plata** | kt | 36 | 44 | **~3.4 %** | Solar PV + electrónica | Media | ✅ |
-| **Aluminio** (demanda total) | Mt | 101 | 120 | **~3 %** | Liviano EV + redes + construcción | Media | 🔄 |
-| **Acero** (crudo) | Mt | 1,890 | 2,020 | **~1.1 %** | Construcción + infraestructura | Baja (por $) | 🔄 |
+| Mineral                            | Unidad | Demanda 2024 (aprox.) | Demanda 2030 (base) | CAGR 24–30      | Driver dominante                   | Intensidad de ingeniería* | Verif.† |
+| ---------------------------------- | ------ | --------------------- | ------------------- | ---------------- | ---------------------------------- | -------------------------- | :------: |
+| **Litio**                    | Mt LCE | 1.0                   | 2.6                 | **~16 %**  | Baterías EV + BESS                | Muy alta                   |    ✅    |
+| **Cobalto**                  | Mt     | 0.20                  | 0.27                | **~5 %**   | Baterías (NMC)                    | Alta                       |    🔄    |
+| **Grafito** (natural+sint.)  | Mt     | 5.5                   | 8.5                 | **~7.5 %** | Ánodos de batería                | Alta                       |    ✅    |
+| **Níquel**                  | Mt     | 3.3                   | 4.3                 | **~4.5 %** | Baterías + acero inox.            | Alta                       |    🔄    |
+| **Neodimio (NdPr/TR imán)** | kt     | 55                    | 73                  | **~5 %**   | Imanes (EV + eólica)              | Muy alta                   |    🔄    |
+| **Silicio** (metal+poly)     | Mt     | 5.5                   | 8.5                 | **~7.5 %** | Solar PV + electrónica            | Media-alta                 |    ✅    |
+| **Cobre** (refinado)         | Mt     | 27.0                  | 30.0                | **~1.8 %** | Redes + EV + edificación          | Alta                       |    🔄    |
+| **Plata**                    | kt     | 36                    | 44                  | **~3.4 %** | Solar PV + electrónica            | Media                      |    ✅    |
+| **Aluminio** (demanda total) | Mt     | 101                   | 120                 | **~3 %**   | Liviano EV + redes + construcción | Media                      |    🔄    |
+| **Acero** (crudo)            | Mt     | 1,890                 | 2,020               | **~1.1 %** | Construcción + infraestructura    | Baja (por $)               |    🔄    |
 
 *\*Intensidad de ingeniería = contenido de servicios de consultoría/ingeniería por dólar de CAPEX, función de complejidad metalúrgica, novedad de proceso y exigencia ESG.*
 †*Estado de verificación (jun-2026): ✅ = cifra confirmada con fuente; 🔄 = cifra ajustada respecto del borrador tras verificación. Ver registro completo en §A.2.*
@@ -283,30 +319,30 @@ flowchart LR
 
 Escala: ●●● = driver dominante · ●● = driver relevante · ● = driver secundario · — = no material.
 
-| Tecnología \ Mineral | Litio | Cobalto | Grafito | Níquel | Neodimio | Cobre | Plata | Silicio | Aluminio | Acero |
-|---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Vehículos eléctricos** | ●●● | ●●● | ●●● | ●●● | ●●● | ●● | — | — | ●● | ● |
-| **Baterías (BESS)** | ●●● | ●● | ●●● | ●● | — | ●● | — | — | ● | ● |
-| **Solar PV** | — | — | — | — | — | ●● | ●●● | ●●● | ●● | ● |
-| **Eólica** | — | — | — | — | ●●● | ●●● | — | — | ●● | ●●● |
-| **Redes de transmisión** | — | — | — | — | — | ●●● | — | — | ●●● | ●● |
+| Tecnología \ Mineral            | Litio | Cobalto | Grafito | Níquel | Neodimio | Cobre | Plata | Silicio | Aluminio | Acero |
+| -------------------------------- | :----: | :-----: | :-----: | :-----: | :------: | :----: | :----: | :-----: | :------: | :----: |
+| **Vehículos eléctricos** | ●●● | ●●● | ●●● | ●●● |  ●●●  |  ●●  |   —   |   —   |   ●●   |   ●   |
+| **Baterías (BESS)**       | ●●● |  ●●  | ●●● |  ●●  |    —    |  ●●  |   —   |   —   |    ●    |   ●   |
+| **Solar PV**               |   —   |   —   |   —   |   —   |    —    |  ●●  | ●●● | ●●● |   ●●   |   ●   |
+| **Eólica**                |   —   |   —   |   —   |   —   |  ●●●  | ●●● |   —   |   —   |   ●●   | ●●● |
+| **Redes de transmisión**  |   —   |   —   |   —   |   —   |    —    | ●●● |   —   |   —   |  ●●●  |  ●●  |
 
 > **Insight (C).** El **cobre** es el único material con tracción ●● o superior en **las cinco** tecnologías → es el "denominador común" de la electrificación y el activo más resiliente para una cartera de ingeniería. El **litio, cobalto y grafito** dependen casi exclusivamente del *cluster* EV+BESS (mayor *upside* pero mayor concentración de riesgo de demanda). El **neodimio** está doblemente traccionado por EV (motores) y eólica (generadores), con oferta geográficamente concentrada → cuello de botella estratégico.
 
 ### 5.2 Cuantificación de la tracción (cuánta demanda incremental explica la transición)
 
-| Mineral | % de la demanda incremental 2024–30 atribuible a transición energética |
-|---|:--:|
-| Litio | ~85–90 % |
-| Grafito | ~70–80 % |
-| Cobalto | ~65–75 % |
-| Neodimio | ~60–70 % |
-| Níquel | ~45–55 % |
-| Cobre | ~40–50 % |
-| Plata | ~40–50 % (PV) |
-| Silicio | ~50–60 % (PV) |
-| Aluminio | ~25–35 % |
-| Acero | ~5–10 % |
+| Mineral  | % de la demanda incremental 2024–30 atribuible a transición energética |
+| -------- | :-----------------------------------------------------------------------: |
+| Litio    |                                 ~85–90 %                                 |
+| Grafito  |                                 ~70–80 %                                 |
+| Cobalto  |                                 ~65–75 %                                 |
+| Neodimio |                                 ~60–70 %                                 |
+| Níquel  |                                 ~45–55 %                                 |
+| Cobre    |                                 ~40–50 %                                 |
+| Plata    |                              ~40–50 % (PV)                              |
+| Silicio  |                              ~50–60 % (PV)                              |
+| Aluminio |                                 ~25–35 %                                 |
+| Acero    |                                 ~5–10 %                                 |
 
 ---
 
@@ -349,14 +385,14 @@ flowchart TD
 
 ### 6.1 EPCM vs. Conceptual vs. Detalle — comparación estructural
 
-| Dimensión | Estudios / Conceptual | Ingeniería de Detalle | EPCM / Ejecución | Optimización |
-|---|---|---|---|---|
-| % del fee pool 2030 | ~25 % | ~18 % | ~35 % | ~10 % |
-| Margen relativo | **Alto** | Medio-bajo | Medio | **Alto** |
-| Ciclicidad | Anticíclico/temprano | Procíclico | **Muy procíclico** | Anticíclico |
-| Barrera de entrada | Alta (reputación, *track record*) | Baja-media | Alta (balance, capacidad) | Media-alta |
-| Exposición a CAPEX | Baja | Media | **Muy alta** | Baja |
-| Diferenciación REDCO | **Alta** | Baja | Media | **Alta** |
+| Dimensión            | Estudios / Conceptual               | Ingeniería de Detalle | EPCM / Ejecución         | Optimización  |
+| --------------------- | ----------------------------------- | ---------------------- | ------------------------- | -------------- |
+| % del fee pool 2030   | ~25 %                               | ~18 %                  | ~35 %                     | ~10 %          |
+| Margen relativo       | **Alto**                      | Medio-bajo             | Medio                     | **Alto** |
+| Ciclicidad            | Anticíclico/temprano               | Procíclico            | **Muy procíclico** | Anticíclico   |
+| Barrera de entrada    | Alta (reputación,*track record*) | Baja-media             | Alta (balance, capacidad) | Media-alta     |
+| Exposición a CAPEX   | Baja                                | Media                  | **Muy alta**        | Baja           |
+| Diferenciación REDCO | **Alta**                      | Baja                   | Media                     | **Alta** |
 
 > **Insight (servicios).** Una cartera resiliente combina **estudios + optimización** (anticíclicos, alto margen, defienden ingresos en la baja del ciclo) con una exposición **medida** a EPCM (procíclico, capturador de volumen en la alta). El segmento de **permitting/ESG** es el de mayor crecimiento de margen porque la permisología se ha vuelto la restricción dominante (ver Eje D).
 
@@ -368,20 +404,20 @@ Se evalúan los riesgos para el **negocio de la consultoría de ingeniería mine
 
 ### 7.1 Registro de riesgos (Risk Register)
 
-| ID | Riesgo | Categoría | P (1–5) | I (1–5) | S = P×I | Estrategia de mitigación |
-|---|---|---|:--:|:--:|:--:|---|
-| R1 | Sanciones / bloqueo geopolítico (Rusia, EdP/Europa del Este) | Geopolítico | 4 | 5 | **20** | Ring-fencing; no-go en Rusia; due diligence de contraparte; cláusulas de fuerza mayor |
-| R2 | Retrasos de permisología (permitting) extienden estudios y difieren EPCM | Regulatorio | 5 | 4 | **20** | Capacidad de *permitting/ESG engineering*; contratos por fases; *milestone billing* |
-| R3 | Escasez de talento técnico senior | Operacional | 5 | 4 | **20** | Plan de talento; ingeniería digital; centros de entrega de bajo costo; alianzas universitarias |
-| R4 | Volatilidad de CAPEX (precio commodity → diferimiento/cancelación de proyectos) | Financiero | 4 | 4 | **16** | Mix de contratos *reimbursable+incentive*; cartera estudios↔EPCM; backlog diversificado |
-| R5 | Inflación de costos de construcción y FX (Argentina, mercados emergentes) | Macroeconómico | 4 | 3 | **12** | Pricing en USD; cláusulas de escalamiento; cobertura FX |
-| R6 | Oposición comunitaria / licencia social (water, glaciares, pueblos originarios) | Social/ESG | 4 | 4 | **16** | Stakeholder engineering; diseño *water-positive*; integración temprana ESG |
-| R7 | Disrupción tecnológica de proceso (DLE, sustitución de materiales) | Tecnológico | 3 | 3 | **9** | I+D propia; partnerships tecnológicos; capacidad de pilotaje |
-| R8 | Concentración de cliente / contraparte | Comercial | 3 | 4 | **12** | Diversificación de cartera por cliente, país y mineral |
-| R9 | Cambio regulatorio fiscal/royalties (Chile, otros) | Regulatorio | 3 | 3 | **9** | Monitoreo regulatorio; flexibilidad de modelos financieros del cliente |
-| R10 | Riesgo cambiario y de repatriación (mercados sancionados/controlados) | Financiero | 3 | 4 | **12** | Estructuras de cobro offshore; límites de exposición por país |
-| R11 | Ciberseguridad / pérdida de IP de ingeniería | Operacional | 3 | 3 | **9** | Gobernanza de datos; segregación de entornos; seguros cibernéticos |
-| R12 | Descarbonización forzada eleva costo/alarga proyectos | Regulatorio/ESG | 3 | 3 | **9** | Capacidad en eficiencia energética y electrificación de faena |
+| ID  | Riesgo                                                                            | Categoría      | P (1–5) | I (1–5) |   S = P×I   | Estrategia de mitigación                                                                       |
+| --- | --------------------------------------------------------------------------------- | --------------- | :------: | :------: | :----------: | ----------------------------------------------------------------------------------------------- |
+| R1  | Sanciones / bloqueo geopolítico (Rusia, EdP/Europa del Este)                     | Geopolítico    |    4    |    5    | **20** | Ring-fencing; no-go en Rusia; due diligence de contraparte; cláusulas de fuerza mayor          |
+| R2  | Retrasos de permisología (permitting) extienden estudios y difieren EPCM         | Regulatorio     |    5    |    4    | **20** | Capacidad de*permitting/ESG engineering*; contratos por fases; *milestone billing*          |
+| R3  | Escasez de talento técnico senior                                                | Operacional     |    5    |    4    | **20** | Plan de talento; ingeniería digital; centros de entrega de bajo costo; alianzas universitarias |
+| R4  | Volatilidad de CAPEX (precio commodity → diferimiento/cancelación de proyectos) | Financiero      |    4    |    4    | **16** | Mix de contratos*reimbursable+incentive*; cartera estudios↔EPCM; backlog diversificado       |
+| R5  | Inflación de costos de construcción y FX (Argentina, mercados emergentes)       | Macroeconómico |    4    |    3    | **12** | Pricing en USD; cláusulas de escalamiento; cobertura FX                                        |
+| R6  | Oposición comunitaria / licencia social (water, glaciares, pueblos originarios)  | Social/ESG      |    4    |    4    | **16** | Stakeholder engineering; diseño*water-positive*; integración temprana ESG                   |
+| R7  | Disrupción tecnológica de proceso (DLE, sustitución de materiales)             | Tecnológico    |    3    |    3    | **9** | I+D propia; partnerships tecnológicos; capacidad de pilotaje                                   |
+| R8  | Concentración de cliente / contraparte                                           | Comercial       |    3    |    4    | **12** | Diversificación de cartera por cliente, país y mineral                                        |
+| R9  | Cambio regulatorio fiscal/royalties (Chile, otros)                                | Regulatorio     |    3    |    3    | **9** | Monitoreo regulatorio; flexibilidad de modelos financieros del cliente                          |
+| R10 | Riesgo cambiario y de repatriación (mercados sancionados/controlados)            | Financiero      |    3    |    4    | **12** | Estructuras de cobro offshore; límites de exposición por país                                |
+| R11 | Ciberseguridad / pérdida de IP de ingeniería                                    | Operacional     |    3    |    3    | **9** | Gobernanza de datos; segregación de entornos; seguros cibernéticos                            |
+| R12 | Descarbonización forzada eleva costo/alarga proyectos                            | Regulatorio/ESG |    3    |    3    | **9** | Capacidad en eficiencia energética y electrificación de faena                                 |
 
 ### Fig. 7 — Distribución de frecuencia de riesgos por nivel de severidad (histograma)
 
@@ -397,13 +433,13 @@ xychart-beta
 
 Posición de cada riesgo en la grilla P×I (●  = riesgo; zona inferior-derecha y superior = mayor severidad).
 
-| **P=5** | | R2, R3 | | |
-|---|---|---|---|---|
-| **P=4** | | R5 | R6 · R4 | R1 |
-| **P=3** | | R9 · R11 · R12 | R8 · R10 | |
-| **P=2** | | | R7 | |
-| **P=1** | | | | |
-| | **I=2** | **I=3** | **I=4** | **I=5** |
+| **P=5** |               | R2, R3           |               |               |
+| ------------- | ------------- | ---------------- | ------------- | ------------- |
+| **P=4** |               | R5               | R6 · R4      | R1            |
+| **P=3** |               | R9 · R11 · R12 | R8 · R10     |               |
+| **P=2** |               |                  | R7            |               |
+| **P=1** |               |                  |               |               |
+|               | **I=2** | **I=3**    | **I=4** | **I=5** |
 
 *Zona crítica (S ≥ 16): R1, R2, R3 (esquina superior-derecha) — geopolítica, permisología y talento. Estos tres definen la agenda de mitigación prioritaria.*
 
@@ -450,13 +486,13 @@ $$
 V_{svc,2030}^{(s)} \;=\; V_{2024}\cdot\prod_{t=2025}^{2030}\bigl(1+g_t^{(s)}\bigr), \qquad s\in\{\text{Base},\text{Optimista},\text{Pesimista}\}
 $$
 
-| Parámetro | Pesimista (Fragmentación) | **Base (Transición gradual)** | Optimista (Aceleración Net-Zero) |
-|---|:--:|:--:|:--:|
-| CAGR servicios $g^{(s)}$ | ~3.5 % | **~8 %** | ~13 % |
-| Factor de ejecución $\phi_{exec}$ | 0.70 | 0.85 | 0.95 |
-| $\theta_{eng}$ medio | 0.045 | 0.055 | 0.065 |
-| Prima de riesgo geopolítico | Alta | Media | Baja |
-| **Valor de mercado 2030 (USD)** | **~USD 17 mil M** | **~USD 22 mil M** | **~USD 29 mil M** |
+| Parámetro                            | Pesimista (Fragmentación) | **Base (Transición gradual)** | Optimista (Aceleración Net-Zero) |
+| ------------------------------------- | :------------------------: | :----------------------------------: | :-------------------------------: |
+| CAGR servicios$g^{(s)}$             |           ~3.5 %           |            **~8 %**            |               ~13 %               |
+| Factor de ejecución$\phi_{exec}$   |            0.70            |                 0.85                 |               0.95               |
+| $\theta_{eng}$ medio                |           0.045           |                0.055                |               0.065               |
+| Prima de riesgo geopolítico          |            Alta            |                Media                |               Baja               |
+| **Valor de mercado 2030 (USD)** |  **~USD 17 mil M**  |       **~USD 22 mil M**       |      **~USD 29 mil M**      |
 
 > **Narrativa de escenarios.**
 > **Base — Transición Gradual:** la electrificación avanza a ritmo planificado; permisología sigue siendo el cuello de botella pero gestionable; CAPEX crece de forma sostenida. *Fee pool* ≈ **USD 22 mil M**.
@@ -483,14 +519,14 @@ Impacto sobre el valor base 2030 (USD 22 mil M) al variar cada driver ±1 desvia
 
 ### Fig. 10 — Tornado de sensibilidad (USD mil M de desviación sobre la base)
 
-| Variable (orden de impacto) | Rango de variación | Δ Valor 2030 (USD mil M) |
-|---|---|:--:|
-| **Factor de ejecución $\phi_{exec}$** (permisos/talento) | 0.70 ↔ 0.95 | **−3.2 / +1.9** |
-| **CAGR de demanda de cobre/litio** | −2pp ↔ +2pp | **−2.6 / +2.8** |
-| **Fracción de ingeniería $\theta_{eng}$** | 0.045 ↔ 0.065 | **−1.8 / +1.8** |
-| **Intensidad de capital $\kappa$** (leyes) | −15% ↔ +15% | **−1.3 / +1.3** |
-| **Prima de riesgo geopolítico** | Alta ↔ Baja | **−1.5 / +1.0** |
-| **Precio de commodities (incentivo FID)** | −20% ↔ +20% | **−1.2 / +1.4** |
+| Variable (orden de impacto)                                       | Rango de variación | Δ Valor 2030 (USD mil M) |
+| ----------------------------------------------------------------- | ------------------- | :-----------------------: |
+| **Factor de ejecución $\phi_{exec}$** (permisos/talento) | 0.70 ↔ 0.95        |  **−3.2 / +1.9**  |
+| **CAGR de demanda de cobre/litio**                          | −2pp ↔ +2pp       |  **−2.6 / +2.8**  |
+| **Fracción de ingeniería $\theta_{eng}$**               | 0.045 ↔ 0.065      |  **−1.8 / +1.8**  |
+| **Intensidad de capital $\kappa$** (leyes)                | −15% ↔ +15%       |  **−1.3 / +1.3**  |
+| **Prima de riesgo geopolítico**                            | Alta ↔ Baja        |  **−1.5 / +1.0**  |
+| **Precio de commodities (incentivo FID)**                   | −20% ↔ +20%       |  **−1.2 / +1.4**  |
 
 > **Insight (E).** La palanca de mayor sensibilidad **no es el precio del commodity sino $\phi_{exec}$** — la capacidad de convertir pipeline en ingeniería facturada (permisos + talento). Esto confirma la tesis: el valor lo captura quien resuelve el cuello de botella de ejecución, no quien apuesta al ciclo de precios.
 
@@ -498,17 +534,17 @@ Impacto sobre el valor base 2030 (USD 22 mil M) al variar cada driver ±1 desvia
 
 Relación entre la **ley media del yacimiento** (eje X, % o g/t normalizado a índice 0–100, mayor = mejor ley) y el **CAPEX de ingeniería por tonelada de capacidad** (eje Y, índice USD/t, mayor = más intensivo). Tendencia esperada: **negativa** (a menor ley, mayor CAPEX e ingeniería por tonelada).
 
-| Tipo de proyecto | X (índice de ley) | Y (índice CAPEX ingeniería/t) |
-|---|:--:|:--:|
-| Pórfido de cobre alta ley (greenfield) | 78 | 30 |
-| Pórfido de cobre baja ley (típico 2030) | 38 | 62 |
-| Sulfuros de níquel | 60 | 48 |
-| Laterita de níquel (HPAL) | 30 | 88 |
-| Litio en salmuera (brine, DLE) | 55 | 58 |
-| Litio en roca (spodumene) | 48 | 66 |
-| Grafito (ánodo, purificación) | 50 | 70 |
-| Tierras raras (separación) | 35 | 92 |
-| Hierro (alta ley) | 82 | 22 |
+| Tipo de proyecto                          | X (índice de ley) | Y (índice CAPEX ingeniería/t) |
+| ----------------------------------------- | :----------------: | :-----------------------------: |
+| Pórfido de cobre alta ley (greenfield)   |         78         |               30               |
+| Pórfido de cobre baja ley (típico 2030) |         38         |               62               |
+| Sulfuros de níquel                       |         60         |               48               |
+| Laterita de níquel (HPAL)                |         30         |               88               |
+| Litio en salmuera (brine, DLE)            |         55         |               58               |
+| Litio en roca (spodumene)                 |         48         |               66               |
+| Grafito (ánodo, purificación)           |         50         |               70               |
+| Tierras raras (separación)               |         35         |               92               |
+| Hierro (alta ley)                         |         82         |               22               |
 
 Ajuste lineal aproximado por mínimos cuadrados sobre los nueve puntos:
 
@@ -524,6 +560,7 @@ $$
 
 ### 9.1 Matriz de priorización (atractivo × capacidad de ganar)
 
+<<<<<<< HEAD
 | Iniciativa | Atractivo de mercado | Capacidad de REDCO de ganar | Prioridad |
 |---|:--:|:--:|:--:|
 | Optimización de cobre brownfield (Chile) | Alto | Alta | **1 — Núcleo** |
@@ -533,6 +570,16 @@ $$
 | Ingeniería de níquel/grafito (Brasil/Canadá) | Alto | Media | **4 — Selectivo** |
 | EPCM greenfield grande | Medio (procíclico) | Media | **5 — Oportunista** |
 | Rusia / activos sancionados | n/a | n/a | **No-go** |
+=======
+| Iniciativa                                      | Atractivo de mercado | Capacidad de REDCO de ganar |         Prioridad         |
+| ----------------------------------------------- | :------------------: | :-------------------------: | :------------------------: |
+| Optimización de cobre brownfield (Chile)       |         Alto         |            Alta            |   **1 — Núcleo**   |
+| Estudios de litio (Argentina/Chile)             |       Muy alto       |         Media-alta         |   **2 — Crecer**   |
+| Permitting & ESG engineering                    |       Muy alto       |     Media (a construir)     |  **3 — Construir**  |
+| Ingeniería de níquel/grafito (Brasil/Canadá) |         Alto         |            Media            |  **4 — Selectivo**  |
+| EPCM greenfield grande                          | Medio (procíclico) |            Media            | **5 — Oportunista** |
+| Rusia / activos sancionados                     |         n/a         |             n/a             |      **No-go**      |
+>>>>>>> ba6ceb9 (Cambios menores)
 
 ### 9.2 Hoja de ruta (roadmap) 2026–2030
 
@@ -574,15 +621,15 @@ Para trazabilidad y réplica, se declaran de forma explícita los criterios de d
 
 **Variables principales.**
 
-| Símbolo | Definición | Rango usado |
-|---|---|---|
-| $D_{m,t}$ | Demanda del mineral $m$ en año $t$ | ver §4.1 |
-| $g_m$ | CAGR de demanda del mineral | 1.5 %–17 % |
-| $\kappa_m$ | Intensidad de capital (USD/t capacidad) | específico por mineral |
-| $\theta_{eng}$ | Fracción de ingeniería sobre CAPEX | 0.04–0.07 |
-| $\theta_{op}$ | Fracción de consultoría sobre OPEX intervenido | 0.005–0.02 |
-| $\phi_{exec}$ | Factor de conversión pipeline→ingeniería | 0.70–0.95 |
-| $\beta$ | Elasticidad CAPEX–ley | > 0 |
+| Símbolo         | Definición                                      | Rango usado             |
+| ---------------- | ------------------------------------------------ | ----------------------- |
+| $D_{m,t}$      | Demanda del mineral$m$ en año $t$           | ver §4.1               |
+| $g_m$          | CAGR de demanda del mineral                      | 1.5 %–17 %             |
+| $\kappa_m$     | Intensidad de capital (USD/t capacidad)          | específico por mineral |
+| $\theta_{eng}$ | Fracción de ingeniería sobre CAPEX             | 0.04–0.07              |
+| $\theta_{op}$  | Fracción de consultoría sobre OPEX intervenido | 0.005–0.02             |
+| $\phi_{exec}$  | Factor de conversión pipeline→ingeniería      | 0.70–0.95              |
+| $\beta$        | Elasticidad CAPEX–ley                           | > 0                     |
 
 **Fuentes de referencia (públicas).** IEA — *Global Critical Minerals Outlook* y *World Energy Outlook*; USGS — *Mineral Commodity Summaries 2025*; BloombergNEF — *Transition Metals / EV Outlook*; S&P Global Commodity Insights; Wood Mackenzie; World Steel Association; CRU Group; informes 10-K/anuales de mineras *majors*. Las referencias completas, con estilo autor–año, se listan en formato **APA (7.ª ed.)** al final del documento (§ Referencias).
 
@@ -592,6 +639,7 @@ Para trazabilidad y réplica, se declaran de forma explícita los criterios de d
 
 Comparación entre el **borrador inicial** (cifras de memoria del analista) y la **verificación con fuentes públicas**. Esta tabla documenta exactamente qué cambió y qué no se pudo confirmar.
 
+<<<<<<< HEAD
 | Ítem | Borrador inicial | Verificado / ajustado | Estado | Fuente principal |
 |---|---|---|:--:|---|
 | Cobre demanda 2024 | 26.5 Mt | **27 Mt** (refinado) | 🔄 ajustado | IEA *Copper* |
@@ -608,6 +656,23 @@ Comparación entre el **borrador inicial** (cifras de memoria del analista) y la
 | Lit. traction (% transición) | Litio 85–90 %, Cu 40–50 % | **confirmado** (narrativa IEA) | ✅ confirmado | IEA Critical Minerals |
 | Mercado servicios USD 14→22B | construido | **no verificable a fuente única**; EPCM global ~$5.4B (2025) @8.4 %; contrato minería $20.3B (2024) | ⚠️ construido | businessresearchinsights, gminsights |
 | **Perú (inclusión)** | no estaba en el informe | cartera 67 proy. ~US$64 mil M; #3 Cu mundial (superado por RD Congo) / #1 reservas Ag | ➕ añadido | MINEM 2025, USGS MCS 2025 |
+=======
+| Ítem                         | Borrador inicial            | Verificado / ajustado                                                                                       |         Estado         | Fuente principal                       |
+| ----------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------- | :---------------------: | -------------------------------------- |
+| Cobre demanda 2024            | 26.5 Mt                     | **27 Mt** (refinado)                                                                                  |       🔄 ajustado       | IEA*Copper*                          |
+| Cobre demanda 2030            | 31.5 Mt (CAGR 3 %)          | **30 Mt** (CAGR ~1.8 %; STEPS ~33 Mt a 2035)                                                          |       🔄 ajustado       | IEA / S&P Global                       |
+| Litio 2024 / 2030             | 1.0 / 2.6 Mt LCE            | **confirmado** (consenso 2.4–3.7; CAGR ~15.7 %)                                                      |      ✅ confirmado      | Benchmark, Albemarle, Fastmarkets      |
+| Cobalto 2030                  | 0.34 Mt                     | **0.27 Mt** (~0.24 Statista; 0.176 e-mob + 0.065 otros)                                               | 🔄 ajustado (a la baja) | Statista, Cobalt Institute, IEA        |
+| Níquel 2030                  | 4.6 Mt                      | **4.3 Mt** (batería ~1.5 Mt; +50 % del crecimiento)                                                  |       🔄 ajustado       | Benchmark                              |
+| Grafito 2024 / 2030           | 5.0 / 8.3 Mt                | **5.5 / 8.5 Mt** (~11 Mt total a 2034)                                                                |    🔄 ajustado (≈)    | IEA, GlobalData, Research&Markets      |
+| Neodimio (imán) 2030         | 88 kt (+60 %)               | **73 kt** (IEA: imanes REE +~⅓ a 2030)                                                               | 🔄 ajustado (a la baja) | IEA*Rare Earth Elements*             |
+| Silicio / polisilicio         | 5.5 → 8.5 Mt               | **confirmado** (polysilicon +11.9 %/a)                                                                |      ✅ confirmado      | IEA Solar PV, mercado polisilicio      |
+| Plata 2030                    | 45 kt                       | **44 kt** (PV ~10–14 kt/a; total ~48–54 kt en esc. alto)                                            |   ✅ confirmado (≈)   | Silver Institute, pv-magazine          |
+| Aluminio                      | "primario 71→84 Mt"        | **total 101→120 Mt** (IAI +40 % a 2030)                                                              |    🔄 reclasificado    | IAI, Nextmsc                           |
+| Acero 2030                    | 2,070 Mt (1.5 %)            | **2,020 Mt** (OECD +0.7 %/a; rango alto 2,830)                                                        |       🔄 ajustado       | OECD*Steel Outlook 2025*, worldsteel |
+| Lit. traction (% transición) | Litio 85–90 %, Cu 40–50 % | **confirmado** (narrativa IEA)                                                                        |      ✅ confirmado      | IEA Critical Minerals                  |
+| Mercado servicios USD 14→22B | construido                  | **no verificable a fuente única**; EPCM global ~$5.4B (2025) @8.4 %; contrato minería $20.3B (2024) |     ⚠️ construido     | businessresearchinsights, gminsights   |
+>>>>>>> ba6ceb9 (Cambios menores)
 
 **Conclusión de la verificación.** La **estructura del informe y los órdenes de magnitud se sostienen**. Los ajustes principales fueron a la baja en **cobalto, níquel y neodimio** (el borrador era optimista en *battery/magnet minerals*) y una **reclasificación del aluminio** (total vs. primario). La única cifra que **no admite verificación a fuente única** es el tamaño del mercado de servicios, que permanece como estimación construida y declarada como tal.
 
@@ -633,21 +698,22 @@ Comparación entre el **borrador inicial** (cifras de memoria del analista) y la
 
 ### B.1 Demanda por mineral y escenario (2030)
 
-| Mineral | Unidad | Pesimista | Base | Optimista | Fuente / rango de referencia |
-|---|---|:--:|:--:|:--:|---|
-| Litio | Mt LCE | 2.4 | 2.6 | 3.7 | Benchmark 2.4 · Albemarle 3.7 |
-| Cobalto | Mt | 0.24 | 0.27 | 0.31 | Statista/Cobalt Inst. ~0.24 (e-mob. 0.176 + otros 0.065) |
-| Grafito | Mt | 7.0 | 8.5 | 11.0 | ~5–6 Mt solo baterías; ~11 Mt total a 2034 |
-| Níquel | Mt | 4.0 | 4.3 | 4.8 | Benchmark: batería ~1.5 Mt de ~4+ Mt total |
-| Neodimio (imán) | kt | 68 | 73 | 85 | IEA: imanes REE +~⅓ a 2030 |
-| Silicio | Mt | 7.2 | 8.5 | 9.8 | Polysilicon $9.7B→$21.4B (+11.9%/a) |
-| Cobre | Mt | 29.0 | 30.0 | 31.5 | IEA STEPS ~27 (2024)→~33 (2035) |
-| Plata | kt | 41 | 44 | 50 | Silver Inst.; PV ~10–14 kt/a a 2030 |
-| Aluminio (total) | Mt | 114 | 120 | 125 | IAI +40% a 2030 (86→120 Mt) |
-| Acero | Mt | 1,970 | 2,020 | 2,200 | OECD +0.7%/a · worldsteel SRO |
+| Mineral          | Unidad | Pesimista | Base | Optimista | Fuente / rango de referencia                             |
+| ---------------- | ------ | :-------: | :---: | :-------: | -------------------------------------------------------- |
+| Litio            | Mt LCE |    2.4    |  2.6  |    3.7    | Benchmark 2.4 · Albemarle 3.7                           |
+| Cobalto          | Mt     |   0.24   | 0.27 |   0.31   | Statista/Cobalt Inst. ~0.24 (e-mob. 0.176 + otros 0.065) |
+| Grafito          | Mt     |    7.0    |  8.5  |   11.0   | ~5–6 Mt solo baterías; ~11 Mt total a 2034             |
+| Níquel          | Mt     |    4.0    |  4.3  |    4.8    | Benchmark: batería ~1.5 Mt de ~4+ Mt total              |
+| Neodimio (imán) | kt     |    68    |  73  |    85    | IEA: imanes REE +~⅓ a 2030                              |
+| Silicio          | Mt     |    7.2    |  8.5  |    9.8    | Polysilicon $9.7B→$21.4B (+11.9%/a)                     |
+| Cobre            | Mt     |   29.0   | 30.0 |   31.5   | IEA STEPS ~27 (2024)→~33 (2035)                         |
+| Plata            | kt     |    41    |  44  |    50    | Silver Inst.; PV ~10–14 kt/a a 2030                     |
+| Aluminio (total) | Mt     |    114    |  120  |    125    | IAI +40% a 2030 (86→120 Mt)                             |
+| Acero            | Mt     |   1,970   | 2,020 |   2,200   | OECD +0.7%/a · worldsteel SRO                           |
 
 ### B.2 Valor del mercado de servicios por región (2030, escenario base, indicativo)
 
+<<<<<<< HEAD
 | Región | Valor (USD mil M) | Participación | CAGR 24–30 |
 |---|:--:|:--:|:--:|
 | Sudamérica (Chile, Perú, Argentina, Brasil) | 10.6 | 48 % | ~9 % |
@@ -656,6 +722,16 @@ Comparación entre el **borrador inicial** (cifras de memoria del analista) y la
 | Europa del Este | 1.5 | 7 % | ~8 % |
 | Otros | 1.2 | 5 % | ~5 % |
 | **Total** | **22.2** | **100 %** | **~8 %** |
+=======
+| Región                                | Valor (USD mil M) | Participación |  CAGR 24–30  |
+| -------------------------------------- | :---------------: | :-------------: | :------------: |
+| Sudamérica (Chile, Argentina, Brasil) |        8.4        |      38 %      |      ~9 %      |
+| Norteamérica (Canadá, EE.UU.)        |        6.6        |      30 %      |     ~10 %     |
+| Resto del mundo (OCDE/aliados)         |        4.4        |      20 %      |      ~7 %      |
+| Europa del Este                        |        1.5        |       7 %       |      ~8 %      |
+| Otros                                  |        1.3        |       5 %       |      ~5 %      |
+| **Total**                        |  **22.2**  | **100 %** | **~8 %** |
+>>>>>>> ba6ceb9 (Cambios menores)
 
 ---
 
