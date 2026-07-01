@@ -17,7 +17,7 @@
 
 1. **Resumen Ejecutivo** — tesis, hallazgos y recomendaciones
 2. **Definición de mercado, alcance y cadena de valor del servicio**
-3. **Eje A — Alcance geográfico:** análisis comparativo de 7 mercados
+3. **Eje A — Alcance geográfico:** análisis comparativo de 8 mercados
 4. **Eje B — Proyección de demanda de minerales críticos y base al 2030** (10 minerales)
 5. **Eje C — Tracción de la demanda:** Energy Technologies → Key Material Needs
 6. **Descomposición de los servicios demandados** (EPCM vs. Conceptual vs. Detalle)
@@ -48,7 +48,7 @@ El mercado de **servicios de consultoría e ingeniería para la gran minería** 
 > **Tesis de inversión (síntesis):**
 > 1. La demanda de servicios de ingeniería minera crecerá de **~USD 14 mil millones (2024)** a **~USD 22 mil millones (2030)** en el escenario base, una **CAGR ≈ 8 %**, superior a la del CAPEX minero agregado por mayor complejidad técnica unitaria.
 > 2. El crecimiento es **asimétrico por mineral**: litio, cobre, níquel, grafito y tierras raras (neodimio) concentran la *tracción incremental*; acero y aluminio aportan volumen pero baja intensidad de ingeniería especializada por dólar.
-> 3. El crecimiento es **asimétrico por geografía**: Chile, Canadá, EE.UU., Brasil y Argentina ofrecen el binomio más atractivo *atractivo geológico × gobernabilidad*; Rusia y partes de Europa del Este ofrecen geología de clase mundial con **prima de riesgo prohibitiva** para firmas occidentales.
+> 3. El crecimiento es **asimétrico por geografía**: Chile, Perú, Canadá, EE.UU., Brasil y Argentina ofrecen el binomio más atractivo *atractivo geológico × gobernabilidad*; Rusia y partes de Europa del Este ofrecen geología de clase mundial con **prima de riesgo prohibitiva** para firmas occidentales.
 > 4. El cuello de botella ya no es el capital sino la **capacidad de ejecución de ingeniería** (talento + permisos). Quien posea capacidad certificada y *track record* capturará renta de escasez.
 
 ### 1.1 Hallazgos clave
@@ -59,13 +59,13 @@ El mercado de **servicios de consultoría e ingeniería para la gran minería** 
 | H2 | El **CAPEX por unidad de metal** sube por caída de leyes y profundización de yacimientos. | Mayor contenido de ingeniería por tonelada → expansión del *fee pool*. |
 | H3 | La **permisología** es el principal retardo: 5–15 años entre descubrimiento y producción. | Servicios de *permitting, ESG y stakeholder engineering* son de alto margen. |
 | H4 | **Escasez de talento técnico** (geólogos, metalurgistas, ingenieros de proyecto senior). | Restricción de oferta = poder de fijación de precios para el consultor. |
-| H5 | **Fragmentación geopolítica** ("friend-shoring") redibuja flujos hacia Américas y aliados OCDE. | Ventaja para firmas con presencia en Chile/Canadá/EE.UU.; riesgo en Rusia. |
+| H5 | **Fragmentación geopolítica** ("friend-shoring") redibuja flujos hacia Américas y aliados OCDE. | Ventaja para firmas con presencia en Chile/Perú/Canadá/EE.UU.; riesgo en Rusia. |
 
 ### 1.2 Recomendaciones estratégicas (top 5)
 
 1. **Especializarse en *battery & critical minerals*** (litio, cobre, níquel, grafito, tierras raras) y en *brownfield optimization* de activos de cobre, donde la demanda es más resiliente al ciclo.
 2. **Construir capacidad en *permitting & ESG engineering***, el servicio con mayor crecimiento de margen y barrera de entrada.
-3. **Concentrar huella geográfica** en el corredor Américas (Chile–Argentina–Brasil–Canadá–EE.UU.) y tratar Rusia/Europa del Este solo vía socios locales con *ring-fencing* de riesgo.
+3. **Concentrar huella geográfica** en el corredor Américas (Chile–Perú–Argentina–Brasil–Canadá–EE.UU.) y tratar Rusia/Europa del Este solo vía socios locales con *ring-fencing* de riesgo.
 4. **Industrializar la entrega** (ingeniería digital, *digital twins*, automatización de ingeniería de detalle) para mitigar la escasez de talento y proteger margen.
 5. **Cubrir la volatilidad de CAPEX** con un *mix* de contratos *reimbursable + incentive* y una cartera balanceada entre estudios (anticíclicos) y EPCM (procíclicos).
 
@@ -113,21 +113,28 @@ flowchart LR
 
 ---
 
-## 3. Eje A — Alcance Geográfico: análisis comparativo de 7 mercados
+## 3. Eje A — Alcance Geográfico: análisis comparativo de 8 mercados
 
-Se evalúan **Chile, Brasil, Argentina, Canadá, Europa del Este, Rusia y Estados Unidos** sobre seis dimensiones de entorno y seis de madurez de demanda. La comparación multivariable se sintetiza en los radares de la Fig. 2.
+Se evalúan **Chile, Perú, Brasil, Argentina, Canadá, Europa del Este, Rusia y Estados Unidos** sobre seis dimensiones de entorno y seis de madurez de demanda. La comparación multivariable se presenta como *small multiples* con realce —un panel por país, el destacado en color y las otras siete geografías en gris— en las Figs. 2a (entorno/riesgo) y 2b (madurez de la demanda). Los criterios de puntuación de cada eje se detallan en §A.1.
 
-### Fig. 2 — Radar comparativo: riesgo sistémico (izq.) y madurez de demanda de ingeniería (der.)
+### Fig. 2 — Radares por país (small multiples con realce): en cada panel el país destacado va en color y las otras siete geografías en gris
 
-![Radar comparativo de mercados de la gran minería al 2030](figures/radar_paises.png)
+**Fig. 2a — Entorno / riesgo sistémico**
 
-*Escala 1–5; en ambos radares "mayor = más favorable para la firma de ingeniería". Estimación del analista.*
+![Radares por país — entorno / riesgo sistémico al 2030](figures/radar_riesgo_por_pais.png)
+
+**Fig. 2b — Madurez de la demanda de ingeniería**
+
+![Radares por país — madurez de la demanda de ingeniería al 2030](figures/radar_madurez_por_pais.png)
+
+*Escala 1–5; en cada panel "color = país destacado; gris = las otras siete geografías (referencia)"; mayor = más favorable para la firma de ingeniería. Criterio de puntuación: rúbrica de seis dimensiones por eje calibrada con indicadores públicos de gobernanza, pipeline de proyectos y marcos de inversión (ver §A.1). Estimación del analista.*
 
 ### 3.1 Matriz comparativa de mercados
 
 | Mercado | Minerales ancla | Pipeline de CAPEX 2024–30 (USD, orden de magnitud) | Atractivo geológico | Gobernabilidad / riesgo país | Permisología (años típicos) | Talento local | Veredicto para REDCO |
 |---|---|---|---|---|---|---|---|
 | **Chile** | Cobre, litio, molibdeno | ~USD 65–75 mil M | Muy alto | Medio-alto | 8–12 | Medio-alto | **Núcleo (Core)** |
+| **Perú** | Cobre, plata, zinc, oro, molibdeno | ~USD 50–60 mil M | Muy alto | Medio-bajo | 8–14 | Medio-alto | **Núcleo (Cu–Ag)** |
 | **Brasil** | Hierro, cobre, níquel, grafito, tierras raras | ~USD 40–50 mil M | Alto | Medio | 6–10 | Medio | **Crecimiento** |
 | **Argentina** | Litio, cobre | ~USD 25–35 mil M | Muy alto (litio) | Medio-bajo (mejora) | 4–8 | Bajo-medio | **Crecimiento (alta beta)** |
 | **Canadá** | Níquel, cobre, litio, potasio, uranio, tierras raras | ~USD 45–55 mil M | Muy alto | Muy alto | 10–15 | Alto | **Expansión OCDE** |
@@ -135,18 +142,24 @@ Se evalúan **Chile, Brasil, Argentina, Canadá, Europa del Este, Rusia y Estado
 | **Europa del Este** | Cobre, níquel, litio, grafito | ~USD 15–25 mil M | Medio | Medio | 6–10 | Medio | **Selectivo / vía socios** |
 | **Rusia** | Níquel, paladio, cobre, oro, tierras raras | n/d (sancionado) | Muy alto | Muy bajo (sanciones) | n/d | Medio | **Evitar / no-go** |
 
-> **Lectura geográfica.** El "corredor de las Américas" (Chile + Argentina + Brasil + Canadá + EE.UU.) concentra la combinación más favorable de geología, pipeline de litio/cobre/níquel y acceso para firmas occidentales. **Rusia** mantiene dotaciones de níquel-paladio de clase mundial pero está **fuera del conjunto factible** por sanciones y riesgo de reputación/contraparte; cualquier exposición debe tratarse como *no-go* para una firma con clientes y financistas OCDE. **Europa del Este** es un mercado emergente de *near-shoring* europeo (litio en Serbia/Chequia, cobre en Polonia) que conviene abordar **vía joint ventures locales**.
+> **Lectura geográfica.** El "corredor de las Américas" (Chile + Perú + Argentina + Brasil + Canadá + EE.UU.) concentra la combinación más favorable de geología, pipeline de litio/cobre/níquel y acceso para firmas occidentales. Su epicentro es el **eje andino Chile–Perú**, que reúne los dos mayores complejos cupríferos-argentíferos del hemisferio occidental y el pipeline de cobre más denso accesible a firmas OCDE. **Rusia** mantiene dotaciones de níquel-paladio de clase mundial pero está **fuera del conjunto factible** por sanciones y riesgo de reputación/contraparte; cualquier exposición debe tratarse como *no-go* para una firma con clientes y financistas OCDE. **Europa del Este** es un mercado emergente de *near-shoring* europeo (litio en Serbia/Chequia, cobre en Polonia) que conviene abordar **vía joint ventures locales**.
+
+### 3.1b Perú: el segundo polo cuprífero-argentífero de los Andes
+
+Perú es el **tercer productor mundial de cobre** (~2.7 Mt en 2024, recientemente superado por la RD Congo) y el **segundo de las Américas** tras Chile; además, lidera las **reservas mundiales de plata** (~140 kt según USGS) y figura entre los mayores productores de zinc, plomo, oro y estaño. Su cartera de inversión minera 2025 comprende **67 proyectos** por un orden de magnitud de ~USD 64 mil millones (MINEM), encabezada por cobre: Los Chancas (~USD 2.6 mil M), Michiquillay (~USD 2.5 mil M), la optimización de Cerro Verde (~USD 2.1 mil M), Tía María (~USD 1.8 mil M) y la ampliación de Quellaveco. Esta dotación posiciona a Perú como **co-núcleo** junto a Chile para una firma de ingeniería especializada en cobre y plata.
+
+El diferencial de Perú frente a Chile no es geológico —ambos comparten la franja andina de pórfidos cupríferos— sino de **gobernabilidad**: la **inestabilidad política** (sucesión de gobiernos en 2016–2023) y la **conflictividad social** en torno a proyectos emblemáticos (Las Bambas, Tía María, Cuajone) elevan la prima de riesgo de ejecución y alargan la permisología efectiva. En contrapartida, Perú ofrece un **ecosistema local de talento minero maduro** (UNI, PUCP y una larga tradición de operación de *majors*) y una macroeconomía relativamente estable (sol resiliente, banca central independiente) que modera el riesgo cambiario. Para REDCO, el veredicto es **Núcleo (Cu–Ag) con gestión activa del riesgo socio-político**: la demanda de ingeniería —estudios, EPCM *brownfield* y optimización de faenas maduras como Antamina, Cerro Verde, Toromocho y Las Bambas— es de primer orden, condicionada a una capacidad robusta de *permitting*, *stakeholder engineering* y gestión de licencia social.
 
 ### 3.2 Concentración geográfica de la presión de demanda (por mineral)
 
 | Mineral | Geografías donde se concentra la presión de demanda de ingeniería 2030 |
 |---|---|
-| **Cobre** | Chile, Perú (adyacente), EE.UU., Canadá, RD Congo/Zambia (fuera de alcance) |
+| **Cobre** | Chile, Perú, EE.UU., Canadá; RD Congo/Zambia (fuera de alcance) |
 | **Litio** | Argentina, Chile (Salar), Australia (fuera), Canadá, EE.UU. |
 | **Níquel** | Canadá, Brasil, Indonesia (fuera), Rusia (restringido) |
 | **Grafito** | Brasil, Canadá, EE.UU. (anodo doméstico), Mozambique (fuera) |
 | **Neodimio (TR)** | EE.UU., Canadá, Brasil, Europa del Este |
-| **Plata** | Chile, EE.UU., México (adyacente) |
+| **Plata** | Perú, México, Chile, EE.UU. |
 | **Cobre/Acero/Aluminio (base)** | Brasil (hierro), Canadá, EE.UU. |
 
 ---
@@ -206,7 +219,7 @@ xychart-beta
     bar [2.6, 0.27, 8.5, 4.3, 8.5, 30.0]
 ```
 
-*Barras: 2024 (clara) vs. 2030 (oscura). Acero (1,890→2,020 Mt), aluminio (101→120 Mt) y plata/neodimio (en kt) se excluyen de este eje por escala; ver §4.1.*
+*Barras: 2024 (clara) vs. 2030 (oscura). **Diferencia absoluta entre años** (Δ = demanda 2030 − demanda 2024, en Mt): litio +1,6; cobalto +0,07; grafito +3,0; níquel +1,0; silicio +3,0; cobre +3,0. Acero (1,890→2,020 Mt), aluminio (101→120 Mt) y plata/neodimio (en kt) se excluyen de este eje por escala; ver §4.1.*
 
 ---
 
@@ -241,7 +254,7 @@ flowchart LR
 
     subgraph GEO["Concentración geográfica de presión"]
         G1["Litio: Argentina/Chile"]
-        G2["Cobre: Chile/EE.UU./Canadá"]
+        G2["Cobre: Chile/Perú/EE.UU."]
         G3["Níquel/Grafito: Canadá/Brasil"]
         G4["TR: EE.UU./Canadá/Brasil"]
     end
@@ -514,6 +527,7 @@ $$
 | Iniciativa | Atractivo de mercado | Capacidad de REDCO de ganar | Prioridad |
 |---|:--:|:--:|:--:|
 | Optimización de cobre brownfield (Chile) | Alto | Alta | **1 — Núcleo** |
+| Cobre brownfield + estudios Cu–Ag (Perú) | Muy alto | Media-alta | **1 — Núcleo** |
 | Estudios de litio (Argentina/Chile) | Muy alto | Media-alta | **2 — Crecer** |
 | Permitting & ESG engineering | Muy alto | Media (a construir) | **3 — Construir** |
 | Ingeniería de níquel/grafito (Brasil/Canadá) | Alto | Media | **4 — Selectivo** |
@@ -524,7 +538,7 @@ $$
 
 ```mermaid
 flowchart LR
-    F1["2026-27 · Fundación\nFortalecer núcleo cobre Chile;\ncapacidades litio; lanzar práctica\nPermitting/ESG"]
+    F1["2026-27 · Fundación\nFortalecer núcleo cobre Chile–Perú;\ncapacidades litio; lanzar práctica\nPermitting/ESG"]
     F2["2027-28 · Expansión\nEntrada selectiva Argentina/Brasil;\ndigitalización de ingeniería de detalle\n(mitiga talento)"]
     F3["2028-30 · Escala\nPlataforma Américas (Canadá/EE.UU.\nvía socios); cartera balanceada\nestudios↔EPCM↔optimización"]
     F1 --> F2 --> F3
@@ -534,7 +548,7 @@ flowchart LR
 
 ### 9.3 Recomendaciones finales
 
-1. **Concentrar el núcleo en cobre + litio en el corredor Américas**; tratar Rusia como *no-go* y Europa del Este solo vía JV.
+1. **Concentrar el núcleo en cobre + litio en el corredor Américas** (eje andino Chile–Perú como columna vertebral cuprífera-argentífera); tratar Rusia como *no-go* y Europa del Este solo vía JV.
 2. **Construir la práctica de Permitting/ESG y de Optimización**: los dos segmentos de mayor margen y crecimiento, y los que defienden ingresos en la baja del ciclo.
 3. **Industrializar la entrega de ingeniería de detalle** (digital twins, automatización) para neutralizar el riesgo R3 (talento) y proteger margen.
 4. **Gestionar la cartera por $\phi_{exec}$, no por precio**: la métrica de gobierno debe ser la conversión de pipeline a ingeniería facturada.
@@ -545,6 +559,18 @@ flowchart LR
 ## Apéndice A — Metodología, variables y fuentes
 
 **Enfoque.** Modelo top-down de demanda de minerales → CAPEX inducido → *fee pool* de servicios, validado con benchmarks bottom-up de fracción de ingeniería sobre CAPEX. Escenarios construidos variando CAGR de servicios, factor de ejecución y fracción de ingeniería.
+
+### A.1 — Criterios explícitos de proyección y análisis
+
+Para trazabilidad y réplica, se declaran de forma explícita los criterios de decisión aplicados en cada proyección y análisis. Todas las cifras se presentan en rangos/escenarios y se marcan como *verificadas* o *construidas* según su origen.
+
+- **C1 — Proyección de demanda de minerales (Eje B).** CAGR del **punto medio** del rango de pronósticos oficiales por mineral (IEA, 2025; USGS, 2025; Benchmark, 2025; OECD, 2025; IAI, 2025; Silver Institute, 2025), capitalizada a seis años ($D_{2030}=D_{2024}(1+g)^6$). *Triangulación:* ante discrepancia se toma el valor más conservador y se marca "ajustado" (§A.2); las bandas pesimista/optimista se fijan en el rango observado entre fuentes.
+- **C2 — Escenarios (Base / Optimista / Pesimista).** Definidos por tres palancas simultáneas: CAGR de servicios $g^{(s)}$, factor de ejecución $\phi_{exec}$ y fracción de ingeniería $\theta_{eng}$. *Anclaje:* la CAGR base (~8 %) se calibra contra la CAGR verificada del mercado EPCM (~8.4 %; Business Research Insights, 2025).
+- **C3 — Dimensionamiento del *fee pool* (Eje E).** $V_{svc}$ = CAPEX × $\theta_{eng}\in[0.04,0.07]$ + $\theta_{op}\in[0.005,0.02]$ sobre OPEX intervenido. Declarado como **estimación construida**, no dato de fuente única (ver caveat §8.2).
+- **C4 — Puntuación de los radares por país (Eje A).** Rúbrica ordinal 1–5 (5 = más favorable) en seis dimensiones por eje, calibrada con indicadores públicos de gobernanza, pipeline de proyectos y marcos de inversión. *Anclaje:* extremos fijados con casos observados del panel (p. ej. estabilidad política 1 ≈ Rusia, 5 ≈ Canadá).
+- **C5 — Riesgos (Eje D).** Severidad $S = P \times I$ (probabilidad × impacto, 1–5); umbrales: $S\ge16$ crítico, 7–15 medio, ≤6 bajo. Se puntúa el riesgo para el **negocio de consultoría**, no para el *owner* minero.
+- **C6 — Correlación ley ↔ CAPEX (Eje E).** Mínimos cuadrados ordinarios sobre nueve arquetipos de proyecto que cubren el espectro ley/proceso (Cu alta/baja ley, sulfuros y laterita de Ni, Li salmuera/roca, grafito, TR, hierro).
+- **C7 — Tracción tecnología × mineral (Eje C).** ●●● driver dominante (≳50 % de la demanda incremental atribuible), ●● relevante, ● secundario, — no material; en el diagrama de flujo (Fig. 4) solo se grafican las relaciones ●● o superiores.
 
 **Variables principales.**
 
@@ -558,7 +584,7 @@ flowchart LR
 | $\phi_{exec}$ | Factor de conversión pipeline→ingeniería | 0.70–0.95 |
 | $\beta$ | Elasticidad CAPEX–ley | > 0 |
 
-**Fuentes de referencia (públicas).** IEA — *Global Critical Minerals Outlook* y *World Energy Outlook*; USGS — *Mineral Commodity Summaries 2025*; BloombergNEF — *Transition Metals / EV Outlook*; S&P Global Commodity Insights; Wood Mackenzie; World Steel Association; CRU Group; informes 10-K/anuales de mineras *majors*.
+**Fuentes de referencia (públicas).** IEA — *Global Critical Minerals Outlook* y *World Energy Outlook*; USGS — *Mineral Commodity Summaries 2025*; BloombergNEF — *Transition Metals / EV Outlook*; S&P Global Commodity Insights; Wood Mackenzie; World Steel Association; CRU Group; informes 10-K/anuales de mineras *majors*. Las referencias completas, con estilo autor–año, se listan en formato **APA (7.ª ed.)** al final del documento (§ Referencias).
 
 **Limitaciones.** Cifras de demanda y *fee pool* son estimaciones trianguladas con incertidumbre material (±15–25 %). Las trayectorias suponen ausencia de shocks macro extremos no contemplados en el escenario pesimista. La asignación geográfica de CAPEX es indicativa.
 
@@ -581,6 +607,7 @@ Comparación entre el **borrador inicial** (cifras de memoria del analista) y la
 | Acero 2030 | 2,070 Mt (1.5 %) | **2,020 Mt** (OECD +0.7 %/a; rango alto 2,830) | 🔄 ajustado | OECD *Steel Outlook 2025*, worldsteel |
 | Lit. traction (% transición) | Litio 85–90 %, Cu 40–50 % | **confirmado** (narrativa IEA) | ✅ confirmado | IEA Critical Minerals |
 | Mercado servicios USD 14→22B | construido | **no verificable a fuente única**; EPCM global ~$5.4B (2025) @8.4 %; contrato minería $20.3B (2024) | ⚠️ construido | businessresearchinsights, gminsights |
+| **Perú (inclusión)** | no estaba en el informe | cartera 67 proy. ~US$64 mil M; #3 Cu mundial (superado por RD Congo) / #1 reservas Ag | ➕ añadido | MINEM 2025, USGS MCS 2025 |
 
 **Conclusión de la verificación.** La **estructura del informe y los órdenes de magnitud se sostienen**. Los ajustes principales fueron a la baja en **cobalto, níquel y neodimio** (el borrador era optimista en *battery/magnet minerals*) y una **reclasificación del aluminio** (total vs. primario). La única cifra que **no admite verificación a fuente única** es el tamaño del mercado de servicios, que permanece como estimación construida y declarada como tal.
 
@@ -596,6 +623,7 @@ Comparación entre el **borrador inicial** (cifras de memoria del analista) y la
 - International Aluminium Institute (IAI), Nextmsc — aluminio
 - OECD *Steel Outlook 2025*, worldsteel — acero
 - businessresearchinsights, gminsights, Mordor Intelligence — EPCM y servicios de minería
+- MINEM (Ministerio de Energía y Minas del Perú) — *Cartera de Proyectos de Inversión Minera 2025* (67 proyectos, ~US$64 mil M; inversión base US$11,478 M ≈ 17.9 %); USGS *Mineral Commodity Summaries 2025* (rankings Cu/Ag de Perú)
 
 *Las URLs específicas se entregan en el mensaje de acompañamiento de esta verificación.*
 
@@ -622,13 +650,35 @@ Comparación entre el **borrador inicial** (cifras de memoria del analista) y la
 
 | Región | Valor (USD mil M) | Participación | CAGR 24–30 |
 |---|:--:|:--:|:--:|
-| Sudamérica (Chile, Argentina, Brasil) | 8.4 | 38 % | ~9 % |
+| Sudamérica (Chile, Perú, Argentina, Brasil) | 10.6 | 48 % | ~9 % |
 | Norteamérica (Canadá, EE.UU.) | 6.6 | 30 % | ~10 % |
-| Resto del mundo (OCDE/aliados) | 4.4 | 20 % | ~7 % |
+| Resto del mundo (OCDE/aliados) | 2.3 | 10 % | ~7 % |
 | Europa del Este | 1.5 | 7 % | ~8 % |
-| Otros | 1.3 | 5 % | ~5 % |
+| Otros | 1.2 | 5 % | ~5 % |
 | **Total** | **22.2** | **100 %** | **~8 %** |
 
 ---
 
-*Documento generado siguiendo la metodología de la skill `market-research-reports`, adaptada a: (i) sin mínimo de 50 páginas; (ii) máximo 2 imágenes generadas (radares); (iii) priorización de diagramación Mermaid.js + notación LaTeX + matrices de datos. Cifras = estimaciones del analista, no datos auditados.*
+---
+
+## Referencias
+
+En formato APA (7.ª ed.), ordenadas alfabéticamente por autor. Las citas en el texto usan estilo autor–año; para autores institucionales se emplea la sigla de uso corriente (p. ej., IEA, USGS, OECD, IAI), cuyo nombre completo figura en la entrada. Las fechas reflejan la edición consultada durante la verificación de junio de 2026.
+
+- Benchmark Mineral Intelligence. (2025). *Lithium and nickel forecasts: lithium industry needs over USD 116 billion to meet 2030 targets*. https://www.benchmarkminerals.com/
+- BloombergNEF. (2025). *Transition metals outlook* y *Electric vehicle outlook*. Bloomberg Finance L.P.
+- Business Research Insights. (2025). *Engineering, procurement and construction management (EPCM) market report*. https://www.businessresearchinsights.com/
+- Fastmarkets. (2024). *Lithium supply and demand to 2030*. https://www.fastmarkets.com/insights/lithium-supply-and-demand-to-2030/
+- International Aluminium Institute. (2025). *Global aluminium demand to reach new highs* (demanda +40 % a 2030: 86,2 → 119,5 Mt). https://international-aluminium.org/
+- International Energy Agency. (2022). *Solar PV global supply chains*. https://www.iea.org/reports/solar-pv-global-supply-chains
+- International Energy Agency. (2025). *Global critical minerals outlook 2025*. https://www.iea.org/reports/global-critical-minerals-outlook-2025
+- Ministerio de Energía y Minas del Perú. (2025). *Cartera de proyectos de inversión minera 2025* (67 proyectos; inversión base US$11.478 millones ≈ 17,9 % del portafolio, del orden de US$64 mil millones). https://www.gob.pe/institucion/minem/informes-publicaciones/6722917-cartera-de-proyectos-de-inversion-minera-2025
+- Organisation for Economic Co-operation and Development. (2025). *OECD steel outlook 2025*. OECD Publishing. https://www.oecd.org/en/publications/oecd-steel-outlook-2025_28b61a5e-en.html
+- S&P Global Commodity Insights. (2022). *The future of copper: will the looming supply gap short-circuit the energy transition?* https://www.spglobal.com/
+- The Silver Institute & Metals Focus. (2025). *World silver survey 2025*. https://www.silverinstitute.org/
+- U.S. Geological Survey. (2025). *Mineral commodity summaries 2025*. https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
+- Wood Mackenzie. (2025). *Global mining capital expenditure and metals demand outlooks*.
+
+---
+
+*Documento generado siguiendo la metodología de la skill `market-research-reports`, adaptada a: (i) sin mínimo de 50 páginas; (ii) máximo 2 imágenes generadas (radares por país, small multiples con realce); (iii) priorización de diagramación Mermaid.js + notación LaTeX + matrices de datos; (iv) citas y referencias en formato APA (7.ª ed.). Cifras = estimaciones del analista, no datos auditados.*

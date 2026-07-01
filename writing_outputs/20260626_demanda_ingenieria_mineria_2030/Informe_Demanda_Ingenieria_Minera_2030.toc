@@ -8,38 +8,40 @@
 \contentsline {section}{\numberline {2.3}Ecosistema y fronteras del mercado}{3}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Eje A --- Alcance Geográfico}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Radares comparativos de mercado}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Matriz comparativa de mercados}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\emph {Pipeline} de CAPEX por mercado}{6}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Concentración geográfica de la presión de demanda}{6}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Eje B --- Proyección de Demanda de Minerales al 2030}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tabla maestra de proyección (escenario base)}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Trayectoria indexada de demanda}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Comparación de volúmenes por mineral}{8}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Eje C --- Tracción de la Demanda}{10}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Mapa de tracción: tecnologías $\rightarrow $ minerales $\rightarrow $ geografía}{10}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Matriz de tracción tecnología $\times $ mineral}{10}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Cuantificación de la tracción}{11}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Descomposición de los Servicios Demandados}{12}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\emph {Tree map} de descomposición del \emph {fee pool}}{12}{section.6.1}%
-\contentsline {section}{\numberline {6.2}EPCM vs.\ Conceptual vs.\ Detalle: comparación estructural}{12}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Eje D --- Riesgos Sistémicos y Mitigación}{14}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Registro de riesgos}{14}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Distribución de frecuencia de riesgos}{14}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Mapa de calor de riesgos (Probabilidad $\times $ Impacto)}{14}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Eje E --- Proyecciones Financieras y Sensibilidad}{16}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Modelo de valoración del mercado de servicios}{16}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Definición de escenarios}{16}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Proyección del valor de mercado por escenario}{17}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Análisis de sensibilidad (tornado)}{18}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Correlación: ley del mineral vs.\ CAPEX de ingeniería}{18}{section.8.5}%
-\contentsline {chapter}{\numberline {9}Síntesis Estratégica y Recomendaciones}{20}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Matriz de priorización (atractivo $\times $ capacidad de ganar)}{20}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Hoja de ruta 2026--2030}{20}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Recomendaciones finales}{20}{section.9.3}%
-\contentsline {chapter}{\numberline {A}Metodología, Variables y Fuentes}{21}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Registro de verificación (junio 2026)}{21}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Tablas de Datos Detalladas}{23}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Demanda por mineral y escenario (2030)}{23}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Matriz numérica de los radares (siete geografías)}{23}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Valor del mercado de servicios por región (2030, base)}{23}{section.B.3}%
-\contentsline {chapter}{Referencias}{25}{appendix*.33}%
+\contentsline {section}{\numberline {3.2}Matriz comparativa de mercados}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Perú: el segundo polo cuprífero-argentífero de los Andes}{7}{section.3.3}%
+\contentsline {section}{\numberline {3.4}\emph {Pipeline} de CAPEX por mercado}{7}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Concentración geográfica de la presión de demanda}{7}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Eje B --- Proyección de Demanda de Minerales al 2030}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tabla maestra de proyección (escenario base)}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Trayectoria indexada de demanda}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Comparación de volúmenes por mineral}{9}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Eje C --- Tracción de la Demanda}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Mapa de tracción: tecnologías $\rightarrow $ minerales $\rightarrow $ geografía}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Matriz de tracción tecnología $\times $ mineral}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Cuantificación de la tracción}{12}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Descomposición de los Servicios Demandados}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\emph {Tree map} de descomposición del \emph {fee pool}}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}EPCM vs.\ Conceptual vs.\ Detalle: comparación estructural}{13}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Eje D --- Riesgos Sistémicos y Mitigación}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Registro de riesgos}{15}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Distribución de frecuencia de riesgos}{15}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Mapa de calor de riesgos (Probabilidad $\times $ Impacto)}{15}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Eje E --- Proyecciones Financieras y Sensibilidad}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Modelo de valoración del mercado de servicios}{17}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Definición de escenarios}{17}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Proyección del valor de mercado por escenario}{18}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Análisis de sensibilidad (tornado)}{19}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Correlación: ley del mineral vs.\ CAPEX de ingeniería}{19}{section.8.5}%
+\contentsline {chapter}{\numberline {9}Síntesis Estratégica y Recomendaciones}{21}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Matriz de priorización (atractivo $\times $ capacidad de ganar)}{21}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Hoja de ruta 2026--2030}{21}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Recomendaciones finales}{21}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Metodología, Variables y Fuentes}{22}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Criterios explícitos de proyección y análisis}{22}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Registro de verificación (junio 2026)}{23}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Tablas de Datos Detalladas}{25}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Demanda por mineral y escenario (2030)}{25}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Matriz numérica de los radares (ocho geografías)}{25}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Valor del mercado de servicios por región (2030, base)}{25}{section.B.3}%
+\contentsline {chapter}{Referencias}{27}{appendix*.35}%
